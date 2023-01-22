@@ -1,0 +1,5 @@
+<resources>
+    <fonts>
+        <font id="sample_font" filename="fonts/sample-bmp.fnt" filter="零一二三四五六七八九十" />
+    </fonts>
+</resources>
