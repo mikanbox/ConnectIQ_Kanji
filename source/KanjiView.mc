@@ -4,6 +4,9 @@ import Toybox.System;
 import Toybox.WatchUi;
 
 class KanjiView extends WatchUi.WatchFace {
+    public var _timetext_mm as Array<Text>;
+    public var _timetext_hh as Array<Text>;
+
 
     function initialize() {
         WatchFace.initialize();
@@ -11,6 +14,19 @@ class KanjiView extends WatchUi.WatchFace {
 
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
+
+        _timetext_hh = new[3] as Array<Text>;
+        _timetext_mm = new[4] as Array<Text>;
+        _timetext_hh[0] = View.findDrawableById("MainLabel_HHMM1") as Text;
+        _timetext_hh[1] = View.findDrawableById("MainLabel_HHMM2") as Text;
+        _timetext_hh[2] = View.findDrawableById("MainLabel_HHMM3") as Text;
+
+        _timetext_mm[0] = View.findDrawableById("MainLabel_HHMM4") as Text;
+        _timetext_mm[1] = View.findDrawableById("MainLabel_HHMM5") as Text;
+        _timetext_mm[2] = View.findDrawableById("MainLabel_HHMM6") as Text;
+        _timetext_mm[3] = View.findDrawableById("MainLabel_HHMM7") as Text;
+        
+
     }
 
     function onShow() as Void {
@@ -22,16 +38,34 @@ class KanjiView extends WatchUi.WatchFace {
         var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
 
 
-        // var textview = View.findDrawableById("TimeLabel") as Text;
-        // textview.setText(timeString);
-
         var textview = View.findDrawableById("TimeLabel") as Text;
-        // var timefont = loadResource(Rez.Fonts.sample_font);
-        // textview.setFont(timefont);
-        var kanjiHOUR = NumberToKanji(clockTime.min.format("%02d").toNumber());
-        textview.setText(kanjiHOUR);
+
+        var kanjiMIN = NumberToKanji(clockTime.min.format("%02d").toNumber());
+        var kanjiMINchars = kanjiMIN.toCharArray();
+
+        for( var i = 0; i < kanjiMINchars.size(); i++ ) {
+            var ch = kanjiMINchars[i].toString();
+            System.println( "Char : " + ch);
+            _timetext_mm[i].setText(ch);
+        }
+        _timetext_mm[3].setText("分");
+
+
+        var kanjiHOUR = NumberToKanji(clockTime.hour.format("%02d").toNumber());
+        var kanjiHOURchars = kanjiHOUR.toCharArray();
+
+        for( var i = 0; i < kanjiHOURchars.size(); i++ ) {
+            var ch = kanjiHOURchars[i].toString();
+            System.println( "Char : " + ch);
+            _timetext_hh[i].setText(ch);
+        }
+        _timetext_hh[2].setText("時");
+
+
+
 
         View.onUpdate(dc);
+        System.println( "kanjiHOUR : " + kanjiMIN);
     }
 
     function NumberToKanji(num as Number) as String {

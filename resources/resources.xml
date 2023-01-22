@@ -1,5 +1,5 @@
 <resources>
     <fonts>
-        <font id="sample_font" filename="fonts/sample-bmp.fnt" filter="零一二三四五六七八九十" />
+        <font id="sample2_font" filename="fonts/sample2.fnt" filter="零一二三四五六七八九十abcdt0123456789" />
     </fonts>
 </resources>
