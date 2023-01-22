@@ -21,27 +21,30 @@ class KanjiView extends WatchUi.WatchFace {
         var clockTime = System.getClockTime();
         var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
 
-        var kanjiHOUR = NumberToKanji(clockTime.min);
-        // var rawMINUTES = ;
 
-        var view = View.findDrawableById("TimeLabel") as Text;
-        view.setText(timeString);
-        View.findDrawableById("TimeLabel").setText(kanjiHOUR);
+        // var textview = View.findDrawableById("TimeLabel") as Text;
+        // textview.setText(timeString);
+
+        var textview = View.findDrawableById("TimeLabel") as Text;
+        // var timefont = loadResource(Rez.Fonts.sample_font);
+        // textview.setFont(timefont);
+        var kanjiHOUR = NumberToKanji(clockTime.min.format("%02d").toNumber());
+        textview.setText(kanjiHOUR);
+
         View.onUpdate(dc);
-
     }
 
-    function NumberToKanji(num as Number) as Number {
-        var strings = "";
+    function NumberToKanji(num as Number) as String {
+        var strings = "" as String;
         var upper_digit = num / 10;
         var lower_digit = num % 10;
         if (num > 10) {
             if (upper_digit > 1) {
-                strings += DigitToKanji(upper_digit);
+                strings += DigitToKanji(upper_digit).toString();
             }
-            strings += "十";
+            strings += "十" as String;
         }
-        strings += DigitToKanji(lower_digit);
+        strings += DigitToKanji(lower_digit).toString();
         return strings as String;
     }
 

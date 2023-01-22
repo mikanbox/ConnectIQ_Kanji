@@ -1,0 +1,561 @@
+[ @file = "Rez.mc"; @line = 1; ]
+module Rez {
+    [ @file = "Rez.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "Rez.mc"; @line = 2; ]
+    module Drawables {
+        [ @file = "Rez.mc"; @line = 2; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 3; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 4; @position = 19; initialized = true; ]
+        var LauncherIcon as Symbol;
+        [ @file = "Rez.mc"; @line = 5; ]
+        using Toybox.WatchUi;
+        [ @file = "Rez.mc"; @line = 6; ]
+        using Toybox.WatchUi as :Ui;
+        [ @file = "Rez.mc"; @line = 7; ]
+        using Toybox.Graphics;
+        [ @file = "Rez.mc"; @line = 8; ]
+        using Toybox.Graphics as :Gfx;
+        [ @file = "Rez.mc"; @line = 10; ]
+        class background extends WatchUi.Drawable{
+            [ @file = "Rez.mc"; @line = 10; ]
+            <init> {
+            }
+            [ @file = "Rez.mc"; @line = 10; ]
+            static
+            <init> {
+            }
+            [ @file = "Rez.mc"; @line = 12; ]
+            function initialize() as Void {
+Rez_mc_12_30_start:
+[ "Rez.mc" 13 12 ]
+                %tmp.2 = getv ? :Drawable;
+                %tmp.3 = getv function %tmp.2 :initialize;
+                %tmp.4 = newd 0;
+                invoke %tmp.2 %tmp.3(%tmp.4);
+Rez_mc_12_30_stop:
+            }
+            [ @file = "Rez.mc"; @line = 16; ]
+            function draw(dc as Graphics.Dc) as Void {
+Rez_mc_16_49_start:
+[ "Rez.mc" 17 12 ]
+Rez_mc_17_12_if_stmt:
+                %tmp.2 = lgetv %self;
+                %tmp.4 = const :isVisible;
+                %tmp.5 = canhazplz %tmp.2 %tmp.4;
+                bf %tmp.5 @Rez_mc_17_12_if_end;
+Rez_mc_17_12_if_true:
+Rez_mc_17_37_start:
+[ "Rez.mc" 18 16 ]
+Rez_mc_18_16_if_stmt:
+                %tmp.6 = lgetv %self;
+                %tmp.7 = as %tmp.6 { (interface { var isVisible; }) };
+                %tmp.8 = getv %tmp.7 :isVisible;
+                %tmp.9 = not %tmp.8;
+                bf %tmp.9 @Rez_mc_18_16_if_end;
+Rez_mc_18_16_if_true:
+Rez_mc_18_37_start:
+[ "Rez.mc" 19 20 ]
+                ret ?;
+Rez_mc_18_37_stop:
+                goto @Rez_mc_18_16_if_end;
+Rez_mc_18_16_if_end:
+Rez_mc_17_37_stop:
+                goto @Rez_mc_17_12_if_end;
+Rez_mc_17_12_if_end:
+[ "Rez.mc" 24 0 ]
+                %tmp.10 = lgetv %dc;
+                %tmp.11 = getv function %tmp.10 :setColor;
+                %tmp.12 = getm $.Toybox.Graphics;
+                %tmp.13 = getv %tmp.12 :COLOR_WHITE;
+                %tmp.14 = getm $.Toybox.Graphics;
+                %tmp.15 = getv %tmp.14 :COLOR_TRANSPARENT;
+                invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "Rez.mc" 25 0 ]
+                %tmp.16 = lgetv %dc;
+                %tmp.17 = getv function %tmp.16 :fillRectangle;
+                %tmp.18 = 0;
+                %tmp.19 = 0;
+                %tmp.20 = add %tmp.18 %tmp.19;
+                %tmp.21 = 0;
+                %tmp.22 = add %tmp.20 %tmp.21;
+                %tmp.23 = 0;
+                %tmp.24 = add %tmp.22 %tmp.23;
+                %tmp.25 = 0;
+                %tmp.26 = 0;
+                %tmp.27 = add %tmp.25 %tmp.26;
+                %tmp.28 = 0;
+                %tmp.29 = add %tmp.27 %tmp.28;
+                %tmp.30 = 0;
+                %tmp.31 = add %tmp.29 %tmp.30;
+                %tmp.32 = 208;
+                %tmp.33 = 0;
+                %tmp.34 = sub %tmp.32 %tmp.33;
+                %tmp.35 = 0;
+                %tmp.36 = sub %tmp.34 %tmp.35;
+                %tmp.37 = 2;
+                %tmp.38 = 0;
+                %tmp.39 = mul %tmp.37 %tmp.38;
+                %tmp.40 = sub %tmp.36 %tmp.39;
+                %tmp.41 = 208;
+                %tmp.42 = 0;
+                %tmp.43 = sub %tmp.41 %tmp.42;
+                %tmp.44 = 0;
+                %tmp.45 = sub %tmp.43 %tmp.44;
+                %tmp.46 = 2;
+                %tmp.47 = 0;
+                %tmp.48 = mul %tmp.46 %tmp.47;
+                %tmp.49 = sub %tmp.45 %tmp.48;
+                invoke %tmp.16 %tmp.17(%tmp.24, %tmp.31, %tmp.40, %tmp.49);
+Rez_mc_16_49_stop:
+            }
+        }
+    }
+    [ @file = "Rez.mc"; @line = 32; ]
+    module Fonts {
+        [ @file = "Rez.mc"; @line = 32; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 33; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 34; @position = 19; initialized = true; ]
+        var sample_font as Symbol;
+    }
+    [ @file = "Rez.mc"; @line = 36; ]
+    module JsonData {
+        [ @file = "Rez.mc"; @line = 36; ]
+        <init> {
+        }
+    }
+    [ @file = "Rez.mc"; @line = 38; ]
+    module Layouts {
+        [ @file = "Rez.mc"; @line = 38; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 39; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 40; ]
+        using Toybox.WatchUi;
+        [ @file = "Rez.mc"; @line = 41; ]
+        using Toybox.WatchUi as :Ui;
+        [ @file = "Rez.mc"; @line = 42; ]
+        using Toybox.Graphics;
+        [ @file = "Rez.mc"; @line = 43; ]
+        using Toybox.Graphics as :Gfx;
+        [ @file = "Rez.mc"; @line = 45; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+Rez_mc_45_69_start:
+[ "Rez.mc" 47 0 ]
+            [ "Rez_mc_45_69_start" "Rez_mc_45_69_stop" ]
+            %rez_cmp_local_custom_drawable_background.1 = local;
+            %tmp.4 = getm $;
+            %tmp.5 = getv %tmp.4 :Rez;
+            %tmp.6 = getv %tmp.5 :Drawables;
+            %tmp.7 = getv function ? %tmp.6 :background;
+            %tmp.1 = newc %tmp.7 ();
+            lputv %rez_cmp_local_custom_drawable_background.1 %tmp.1;
+[ "Rez.mc" 48 0 ]
+Rez_mc_48_0_if_stmt:
+            %tmp.8 = lgetv %rez_cmp_local_custom_drawable_background.1;
+            %tmp.9 = getv %tmp.8 :identifier;
+            %tmp.10 = null;
+            %tmp.11 = eq %tmp.9 %tmp.10;
+            bf %tmp.11 @Rez_mc_48_0_if_end;
+Rez_mc_48_0_if_true:
+Rez_mc_48_67_start:
+[ "Rez.mc" 49 4 ]
+            %tmp.12 = lgetv %rez_cmp_local_custom_drawable_background.1;
+            %tmp.13 = "background";
+            putv %tmp.12 :identifier %tmp.13;
+Rez_mc_48_67_stop:
+            goto @Rez_mc_48_0_if_end;
+Rez_mc_48_0_if_end:
+[ "Rez.mc" 51 0 ]
+            [ "Rez_mc_45_69_start" "Rez_mc_45_69_stop" ]
+            %rez_cmp_local_text_MainLabel_HHMM1.2 = local;
+            %tmp.16 = getm $.Toybox.WatchUi;
+            %tmp.17 = getv function ? %tmp.16 :Text;
+            %tmp.18 = newd 6;
+            %tmp.20 = const :identifier;
+            %tmp.21 = "MainLabel_HHMM1";
+            %tmp.22 = dup %tmp.18;
+            %tmp.23 = aputv %tmp.22 %tmp.20 %tmp.21;
+            %tmp.25 = const :color;
+            %tmp.26 = getm $.Toybox.Graphics;
+            %tmp.27 = getv %tmp.26 :COLOR_BLACK;
+            %tmp.28 = dup %tmp.23;
+            %tmp.29 = aputv %tmp.28 %tmp.25 %tmp.27;
+            %tmp.31 = const :locX;
+            %tmp.32 = 208;
+            %tmp.33 = 0.5;
+            %tmp.34 = mul %tmp.32 %tmp.33;
+            %tmp.35 = dup %tmp.29;
+            %tmp.36 = aputv %tmp.35 %tmp.31 %tmp.34;
+            %tmp.38 = const :locY;
+            %tmp.39 = 208;
+            %tmp.40 = 20;
+            %tmp.41 = 100.0;
+            %tmp.42 = div %tmp.40 %tmp.41;
+            %tmp.43 = mul %tmp.39 %tmp.42;
+            %tmp.44 = dup %tmp.36;
+            %tmp.45 = aputv %tmp.44 %tmp.38 %tmp.43;
+            %tmp.47 = const :justification;
+            %tmp.48 = getm $.Toybox.Graphics;
+            %tmp.49 = getv %tmp.48 :TEXT_JUSTIFY_CENTER;
+            %tmp.50 = dup %tmp.45;
+            %tmp.51 = aputv %tmp.50 %tmp.47 %tmp.49;
+            %tmp.53 = const :font;
+            %tmp.54 = getm $.Toybox.Graphics;
+            %tmp.55 = getv %tmp.54 :FONT_LARGE;
+            %tmp.56 = dup %tmp.51;
+            %tmp.57 = aputv %tmp.56 %tmp.53 %tmp.55;
+            %tmp.14 = newc %tmp.17 (%tmp.57);
+            lputv %rez_cmp_local_text_MainLabel_HHMM1.2 %tmp.14;
+[ "Rez.mc" 52 0 ]
+            [ "Rez_mc_45_69_start" "Rez_mc_45_69_stop" ]
+            %rez_cmp_local_text_MainLabel_HHMM2.3 = local;
+            %tmp.60 = getm $.Toybox.WatchUi;
+            %tmp.61 = getv function ? %tmp.60 :Text;
+            %tmp.62 = newd 6;
+            %tmp.64 = const :identifier;
+            %tmp.65 = "MainLabel_HHMM2";
+            %tmp.66 = dup %tmp.62;
+            %tmp.67 = aputv %tmp.66 %tmp.64 %tmp.65;
+            %tmp.69 = const :color;
+            %tmp.70 = getm $.Toybox.Graphics;
+            %tmp.71 = getv %tmp.70 :COLOR_BLACK;
+            %tmp.72 = dup %tmp.67;
+            %tmp.73 = aputv %tmp.72 %tmp.69 %tmp.71;
+            %tmp.75 = const :locX;
+            %tmp.76 = 208;
+            %tmp.77 = 0.5;
+            %tmp.78 = mul %tmp.76 %tmp.77;
+            %tmp.79 = dup %tmp.73;
+            %tmp.80 = aputv %tmp.79 %tmp.75 %tmp.78;
+            %tmp.82 = const :locY;
+            %tmp.83 = 208;
+            %tmp.84 = 30;
+            %tmp.85 = 100.0;
+            %tmp.86 = div %tmp.84 %tmp.85;
+            %tmp.87 = mul %tmp.83 %tmp.86;
+            %tmp.88 = dup %tmp.80;
+            %tmp.89 = aputv %tmp.88 %tmp.82 %tmp.87;
+            %tmp.91 = const :justification;
+            %tmp.92 = getm $.Toybox.Graphics;
+            %tmp.93 = getv %tmp.92 :TEXT_JUSTIFY_CENTER;
+            %tmp.94 = dup %tmp.89;
+            %tmp.95 = aputv %tmp.94 %tmp.91 %tmp.93;
+            %tmp.97 = const :font;
+            %tmp.98 = getm $.Toybox.Graphics;
+            %tmp.99 = getv %tmp.98 :FONT_LARGE;
+            %tmp.100 = dup %tmp.95;
+            %tmp.101 = aputv %tmp.100 %tmp.97 %tmp.99;
+            %tmp.58 = newc %tmp.61 (%tmp.101);
+            lputv %rez_cmp_local_text_MainLabel_HHMM2.3 %tmp.58;
+[ "Rez.mc" 53 0 ]
+            [ "Rez_mc_45_69_start" "Rez_mc_45_69_stop" ]
+            %rez_cmp_local_text_MainLabel_HHMM3.4 = local;
+            %tmp.104 = getm $.Toybox.WatchUi;
+            %tmp.105 = getv function ? %tmp.104 :Text;
+            %tmp.106 = newd 6;
+            %tmp.108 = const :identifier;
+            %tmp.109 = "MainLabel_HHMM3";
+            %tmp.110 = dup %tmp.106;
+            %tmp.111 = aputv %tmp.110 %tmp.108 %tmp.109;
+            %tmp.113 = const :color;
+            %tmp.114 = getm $.Toybox.Graphics;
+            %tmp.115 = getv %tmp.114 :COLOR_BLACK;
+            %tmp.116 = dup %tmp.111;
+            %tmp.117 = aputv %tmp.116 %tmp.113 %tmp.115;
+            %tmp.119 = const :locX;
+            %tmp.120 = 208;
+            %tmp.121 = 0.5;
+            %tmp.122 = mul %tmp.120 %tmp.121;
+            %tmp.123 = dup %tmp.117;
+            %tmp.124 = aputv %tmp.123 %tmp.119 %tmp.122;
+            %tmp.126 = const :locY;
+            %tmp.127 = 208;
+            %tmp.128 = 40;
+            %tmp.129 = 100.0;
+            %tmp.130 = div %tmp.128 %tmp.129;
+            %tmp.131 = mul %tmp.127 %tmp.130;
+            %tmp.132 = dup %tmp.124;
+            %tmp.133 = aputv %tmp.132 %tmp.126 %tmp.131;
+            %tmp.135 = const :justification;
+            %tmp.136 = getm $.Toybox.Graphics;
+            %tmp.137 = getv %tmp.136 :TEXT_JUSTIFY_CENTER;
+            %tmp.138 = dup %tmp.133;
+            %tmp.139 = aputv %tmp.138 %tmp.135 %tmp.137;
+            %tmp.141 = const :font;
+            %tmp.142 = getm $.Toybox.Graphics;
+            %tmp.143 = getv %tmp.142 :FONT_LARGE;
+            %tmp.144 = dup %tmp.139;
+            %tmp.145 = aputv %tmp.144 %tmp.141 %tmp.143;
+            %tmp.102 = newc %tmp.105 (%tmp.145);
+            lputv %rez_cmp_local_text_MainLabel_HHMM3.4 %tmp.102;
+[ "Rez.mc" 54 0 ]
+            [ "Rez_mc_45_69_start" "Rez_mc_45_69_stop" ]
+            %rez_cmp_local_text_MainLabel_HHMM4.5 = local;
+            %tmp.148 = getm $.Toybox.WatchUi;
+            %tmp.149 = getv function ? %tmp.148 :Text;
+            %tmp.150 = newd 6;
+            %tmp.152 = const :identifier;
+            %tmp.153 = "MainLabel_HHMM4";
+            %tmp.154 = dup %tmp.150;
+            %tmp.155 = aputv %tmp.154 %tmp.152 %tmp.153;
+            %tmp.157 = const :color;
+            %tmp.158 = getm $.Toybox.Graphics;
+            %tmp.159 = getv %tmp.158 :COLOR_BLACK;
+            %tmp.160 = dup %tmp.155;
+            %tmp.161 = aputv %tmp.160 %tmp.157 %tmp.159;
+            %tmp.163 = const :locX;
+            %tmp.164 = 208;
+            %tmp.165 = 0.5;
+            %tmp.166 = mul %tmp.164 %tmp.165;
+            %tmp.167 = dup %tmp.161;
+            %tmp.168 = aputv %tmp.167 %tmp.163 %tmp.166;
+            %tmp.170 = const :locY;
+            %tmp.171 = 208;
+            %tmp.172 = 50;
+            %tmp.173 = 100.0;
+            %tmp.174 = div %tmp.172 %tmp.173;
+            %tmp.175 = mul %tmp.171 %tmp.174;
+            %tmp.176 = dup %tmp.168;
+            %tmp.177 = aputv %tmp.176 %tmp.170 %tmp.175;
+            %tmp.179 = const :justification;
+            %tmp.180 = getm $.Toybox.Graphics;
+            %tmp.181 = getv %tmp.180 :TEXT_JUSTIFY_CENTER;
+            %tmp.182 = dup %tmp.177;
+            %tmp.183 = aputv %tmp.182 %tmp.179 %tmp.181;
+            %tmp.185 = const :font;
+            %tmp.186 = getm $.Toybox.Graphics;
+            %tmp.187 = getv %tmp.186 :FONT_LARGE;
+            %tmp.188 = dup %tmp.183;
+            %tmp.189 = aputv %tmp.188 %tmp.185 %tmp.187;
+            %tmp.146 = newc %tmp.149 (%tmp.189);
+            lputv %rez_cmp_local_text_MainLabel_HHMM4.5 %tmp.146;
+[ "Rez.mc" 55 0 ]
+            [ "Rez_mc_45_69_start" "Rez_mc_45_69_stop" ]
+            %rez_cmp_local_text_MainLabel_HHMM5.6 = local;
+            %tmp.192 = getm $.Toybox.WatchUi;
+            %tmp.193 = getv function ? %tmp.192 :Text;
+            %tmp.194 = newd 6;
+            %tmp.196 = const :identifier;
+            %tmp.197 = "MainLabel_HHMM5";
+            %tmp.198 = dup %tmp.194;
+            %tmp.199 = aputv %tmp.198 %tmp.196 %tmp.197;
+            %tmp.201 = const :color;
+            %tmp.202 = getm $.Toybox.Graphics;
+            %tmp.203 = getv %tmp.202 :COLOR_BLACK;
+            %tmp.204 = dup %tmp.199;
+            %tmp.205 = aputv %tmp.204 %tmp.201 %tmp.203;
+            %tmp.207 = const :locX;
+            %tmp.208 = 208;
+            %tmp.209 = 0.5;
+            %tmp.210 = mul %tmp.208 %tmp.209;
+            %tmp.211 = dup %tmp.205;
+            %tmp.212 = aputv %tmp.211 %tmp.207 %tmp.210;
+            %tmp.214 = const :locY;
+            %tmp.215 = 208;
+            %tmp.216 = 60;
+            %tmp.217 = 100.0;
+            %tmp.218 = div %tmp.216 %tmp.217;
+            %tmp.219 = mul %tmp.215 %tmp.218;
+            %tmp.220 = dup %tmp.212;
+            %tmp.221 = aputv %tmp.220 %tmp.214 %tmp.219;
+            %tmp.223 = const :justification;
+            %tmp.224 = getm $.Toybox.Graphics;
+            %tmp.225 = getv %tmp.224 :TEXT_JUSTIFY_CENTER;
+            %tmp.226 = dup %tmp.221;
+            %tmp.227 = aputv %tmp.226 %tmp.223 %tmp.225;
+            %tmp.229 = const :font;
+            %tmp.230 = getm $.Toybox.Graphics;
+            %tmp.231 = getv %tmp.230 :FONT_LARGE;
+            %tmp.232 = dup %tmp.227;
+            %tmp.233 = aputv %tmp.232 %tmp.229 %tmp.231;
+            %tmp.190 = newc %tmp.193 (%tmp.233);
+            lputv %rez_cmp_local_text_MainLabel_HHMM5.6 %tmp.190;
+[ "Rez.mc" 56 0 ]
+            [ "Rez_mc_45_69_start" "Rez_mc_45_69_stop" ]
+            %rez_cmp_local_text_MainLabel_HHMM6.7 = local;
+            %tmp.236 = getm $.Toybox.WatchUi;
+            %tmp.237 = getv function ? %tmp.236 :Text;
+            %tmp.238 = newd 6;
+            %tmp.240 = const :identifier;
+            %tmp.241 = "MainLabel_HHMM6";
+            %tmp.242 = dup %tmp.238;
+            %tmp.243 = aputv %tmp.242 %tmp.240 %tmp.241;
+            %tmp.245 = const :color;
+            %tmp.246 = getm $.Toybox.Graphics;
+            %tmp.247 = getv %tmp.246 :COLOR_BLACK;
+            %tmp.248 = dup %tmp.243;
+            %tmp.249 = aputv %tmp.248 %tmp.245 %tmp.247;
+            %tmp.251 = const :locX;
+            %tmp.252 = 208;
+            %tmp.253 = 0.5;
+            %tmp.254 = mul %tmp.252 %tmp.253;
+            %tmp.255 = dup %tmp.249;
+            %tmp.256 = aputv %tmp.255 %tmp.251 %tmp.254;
+            %tmp.258 = const :locY;
+            %tmp.259 = 208;
+            %tmp.260 = 70;
+            %tmp.261 = 100.0;
+            %tmp.262 = div %tmp.260 %tmp.261;
+            %tmp.263 = mul %tmp.259 %tmp.262;
+            %tmp.264 = dup %tmp.256;
+            %tmp.265 = aputv %tmp.264 %tmp.258 %tmp.263;
+            %tmp.267 = const :justification;
+            %tmp.268 = getm $.Toybox.Graphics;
+            %tmp.269 = getv %tmp.268 :TEXT_JUSTIFY_CENTER;
+            %tmp.270 = dup %tmp.265;
+            %tmp.271 = aputv %tmp.270 %tmp.267 %tmp.269;
+            %tmp.273 = const :font;
+            %tmp.274 = getm $.Toybox.Graphics;
+            %tmp.275 = getv %tmp.274 :FONT_LARGE;
+            %tmp.276 = dup %tmp.271;
+            %tmp.277 = aputv %tmp.276 %tmp.273 %tmp.275;
+            %tmp.234 = newc %tmp.237 (%tmp.277);
+            lputv %rez_cmp_local_text_MainLabel_HHMM6.7 %tmp.234;
+[ "Rez.mc" 57 0 ]
+            [ "Rez_mc_45_69_start" "Rez_mc_45_69_stop" ]
+            %rez_cmp_local_text_MainLabel_HHMM7.8 = local;
+            %tmp.280 = getm $.Toybox.WatchUi;
+            %tmp.281 = getv function ? %tmp.280 :Text;
+            %tmp.282 = newd 6;
+            %tmp.284 = const :identifier;
+            %tmp.285 = "MainLabel_HHMM7";
+            %tmp.286 = dup %tmp.282;
+            %tmp.287 = aputv %tmp.286 %tmp.284 %tmp.285;
+            %tmp.289 = const :color;
+            %tmp.290 = getm $.Toybox.Graphics;
+            %tmp.291 = getv %tmp.290 :COLOR_BLACK;
+            %tmp.292 = dup %tmp.287;
+            %tmp.293 = aputv %tmp.292 %tmp.289 %tmp.291;
+            %tmp.295 = const :locX;
+            %tmp.296 = 208;
+            %tmp.297 = 0.5;
+            %tmp.298 = mul %tmp.296 %tmp.297;
+            %tmp.299 = dup %tmp.293;
+            %tmp.300 = aputv %tmp.299 %tmp.295 %tmp.298;
+            %tmp.302 = const :locY;
+            %tmp.303 = 208;
+            %tmp.304 = 80;
+            %tmp.305 = 100.0;
+            %tmp.306 = div %tmp.304 %tmp.305;
+            %tmp.307 = mul %tmp.303 %tmp.306;
+            %tmp.308 = dup %tmp.300;
+            %tmp.309 = aputv %tmp.308 %tmp.302 %tmp.307;
+            %tmp.311 = const :justification;
+            %tmp.312 = getm $.Toybox.Graphics;
+            %tmp.313 = getv %tmp.312 :TEXT_JUSTIFY_CENTER;
+            %tmp.314 = dup %tmp.309;
+            %tmp.315 = aputv %tmp.314 %tmp.311 %tmp.313;
+            %tmp.317 = const :font;
+            %tmp.318 = getm $.Toybox.Graphics;
+            %tmp.319 = getv %tmp.318 :FONT_LARGE;
+            %tmp.320 = dup %tmp.315;
+            %tmp.321 = aputv %tmp.320 %tmp.317 %tmp.319;
+            %tmp.278 = newc %tmp.281 (%tmp.321);
+            lputv %rez_cmp_local_text_MainLabel_HHMM7.8 %tmp.278;
+[ "Rez.mc" 58 0 ]
+            [ "Rez_mc_45_69_start" "Rez_mc_45_69_stop" ]
+            %rez_cmp_local_text_TimeLabel.9 = local;
+            %tmp.324 = getm $.Toybox.WatchUi;
+            %tmp.325 = getv function ? %tmp.324 :Text;
+            %tmp.326 = newd 6;
+            %tmp.328 = const :identifier;
+            %tmp.329 = "TimeLabel";
+            %tmp.330 = dup %tmp.326;
+            %tmp.331 = aputv %tmp.330 %tmp.328 %tmp.329;
+            %tmp.333 = const :color;
+            %tmp.334 = getm $.Toybox.Graphics;
+            %tmp.335 = getv %tmp.334 :COLOR_RED;
+            %tmp.336 = dup %tmp.331;
+            %tmp.337 = aputv %tmp.336 %tmp.333 %tmp.335;
+            %tmp.339 = const :locX;
+            %tmp.340 = 208;
+            %tmp.341 = 0.5;
+            %tmp.342 = mul %tmp.340 %tmp.341;
+            %tmp.343 = dup %tmp.337;
+            %tmp.344 = aputv %tmp.343 %tmp.339 %tmp.342;
+            %tmp.346 = const :locY;
+            %tmp.347 = 208;
+            %tmp.348 = lgetv %dc;
+            %tmp.349 = getv function %tmp.348 :getFontHeight;
+            %tmp.350 = getm $.Toybox.Graphics;
+            %tmp.351 = getv %tmp.350 :FONT_LARGE;
+            %tmp.352 = invoke %tmp.348 %tmp.349(%tmp.351);
+            %tmp.353 = sub %tmp.347 %tmp.352;
+            %tmp.354 = 0.5;
+            %tmp.355 = mul %tmp.353 %tmp.354;
+            %tmp.356 = dup %tmp.344;
+            %tmp.357 = aputv %tmp.356 %tmp.346 %tmp.355;
+            %tmp.359 = const :justification;
+            %tmp.360 = getm $.Toybox.Graphics;
+            %tmp.361 = getv %tmp.360 :TEXT_JUSTIFY_CENTER;
+            %tmp.362 = dup %tmp.357;
+            %tmp.363 = aputv %tmp.362 %tmp.359 %tmp.361;
+            %tmp.365 = const :font;
+            %tmp.366 = getm $.Toybox.Graphics;
+            %tmp.367 = getv %tmp.366 :FONT_LARGE;
+            %tmp.368 = dup %tmp.363;
+            %tmp.369 = aputv %tmp.368 %tmp.365 %tmp.367;
+            %tmp.322 = newc %tmp.325 (%tmp.369);
+            lputv %rez_cmp_local_text_TimeLabel.9 %tmp.322;
+[ "Rez.mc" 60 8 ]
+            %tmp.370 = newa Array<WatchUi.Drawable> 9;
+            %tmp.372 = lgetv %rez_cmp_local_custom_drawable_background.1;
+            %tmp.373 = dup %tmp.370;
+            %tmp.374 = aputv %tmp.373 0 %tmp.372;
+            %tmp.376 = lgetv %rez_cmp_local_text_MainLabel_HHMM1.2;
+            %tmp.377 = dup %tmp.374;
+            %tmp.378 = aputv %tmp.377 1 %tmp.376;
+            %tmp.380 = lgetv %rez_cmp_local_text_MainLabel_HHMM2.3;
+            %tmp.381 = dup %tmp.378;
+            %tmp.382 = aputv %tmp.381 2 %tmp.380;
+            %tmp.384 = lgetv %rez_cmp_local_text_MainLabel_HHMM3.4;
+            %tmp.385 = dup %tmp.382;
+            %tmp.386 = aputv %tmp.385 3 %tmp.384;
+            %tmp.388 = lgetv %rez_cmp_local_text_MainLabel_HHMM4.5;
+            %tmp.389 = dup %tmp.386;
+            %tmp.390 = aputv %tmp.389 4 %tmp.388;
+            %tmp.392 = lgetv %rez_cmp_local_text_MainLabel_HHMM5.6;
+            %tmp.393 = dup %tmp.390;
+            %tmp.394 = aputv %tmp.393 5 %tmp.392;
+            %tmp.396 = lgetv %rez_cmp_local_text_MainLabel_HHMM6.7;
+            %tmp.397 = dup %tmp.394;
+            %tmp.398 = aputv %tmp.397 6 %tmp.396;
+            %tmp.400 = lgetv %rez_cmp_local_text_MainLabel_HHMM7.8;
+            %tmp.401 = dup %tmp.398;
+            %tmp.402 = aputv %tmp.401 7 %tmp.400;
+            %tmp.404 = lgetv %rez_cmp_local_text_TimeLabel.9;
+            %tmp.405 = dup %tmp.402;
+            %tmp.406 = aputv %tmp.405 8 %tmp.404;
+            ret %tmp.406;
+Rez_mc_45_69_stop:
+        }
+    }
+    [ @file = "Rez.mc"; @line = 65; ]
+    module Menus {
+        [ @file = "Rez.mc"; @line = 65; ]
+        <init> {
+        }
+    }
+    [ @file = "Rez.mc"; @line = 67; ]
+    module Strings {
+        [ @file = "Rez.mc"; @line = 67; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 68; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 69; @position = 19; initialized = true; ]
+        var AppName as Symbol;
+    }
+}
+[ @file = "Rez.mc"; @line = 1; ]
+<init> {
+}
