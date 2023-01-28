@@ -129,7 +129,10 @@ class KanjiView extends WatchUi.WatchFace {
             }
             strings += "十" as String;
         }
-        strings += DigitToKanji(lower_digit).toString();
+        if (lower_digit > 0 || upper_digit == 0) {
+            strings += DigitToKanji(lower_digit).toString();
+        }
+
         return strings as String;
     }
 
