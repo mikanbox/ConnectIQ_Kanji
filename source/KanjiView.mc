@@ -7,14 +7,14 @@ import Toybox.ActivityMonitor;
 
 
 class KanjiView extends WatchUi.WatchFace {
-    public var _timetext_mm as Array<Text>;
-    public var _timetext_hh as Array<Text>;
+    public var _timetext_mm as Array<Text> = new[4] as Array<Text>;
+    public var _timetext_hh as Array<Text> = new[4] as Array<Text>;
 
-    public var _timetext_month as Array<Text>;
-    public var _timetext_day as Array<Text>;
+    public var _timetext_month as Array<Text> = new[3] as Array<Text>;
+    public var _timetext_day as Array<Text> = new[4] as Array<Text>;
 
-    public var _label_battery as Array<Text>;
-    public var _label_walk as Array<Text>;
+    public var _label_battery as Array<Text> = new[4] as Array<Text>;
+    public var _label_walk as Array<Text> = new[8] as Array<Text>;
 
     function initialize() {
         WatchFace.initialize();
@@ -23,8 +23,6 @@ class KanjiView extends WatchUi.WatchFace {
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
 
-        _timetext_hh = new[4] as Array<Text>;
-        _timetext_mm = new[4] as Array<Text>;
         _timetext_hh[0] = View.findDrawableById("MainLabel_HHMM1") as Text;
         _timetext_hh[1] = View.findDrawableById("MainLabel_HHMM2") as Text;
         _timetext_hh[2] = View.findDrawableById("MainLabel_HHMM3") as Text;
@@ -36,8 +34,6 @@ class KanjiView extends WatchUi.WatchFace {
         _timetext_mm[3] = View.findDrawableById("MainLabel_HHMM8") as Text;
 
 
-        _timetext_month = new[3] as Array<Text>;
-        _timetext_day = new[4] as Array<Text>;
         _timetext_month[0] = View.findDrawableById("LeftLabel_MD1") as Text;
         _timetext_month[1] = View.findDrawableById("LeftLabel_MD2") as Text;
         _timetext_month[2] = View.findDrawableById("LeftLabel_MD3") as Text;
@@ -48,8 +44,7 @@ class KanjiView extends WatchUi.WatchFace {
         _timetext_day[3] = View.findDrawableById("LeftLabel_MD7") as Text;
 
 
-        _label_walk = new[8] as Array<Text>;
-        _label_battery = new[4] as Array<Text>;
+
         _label_walk[0] = View.findDrawableById("Label_Walk1") as Text;
         _label_walk[1] = View.findDrawableById("Label_Walk2") as Text;
         _label_walk[2] = View.findDrawableById("Label_Walk3") as Text;
@@ -90,10 +85,12 @@ class KanjiView extends WatchUi.WatchFace {
         var myStats = System.getSystemStats();
         var batteries = "電" + NumberToKanji(myStats.battery.toNumber());
         setCharstoText(batteries, _label_battery);
+        System.println("Debug: battery - " + batteries);
 
         var info = ActivityMonitor.getInfo();
         var steps = "歩" + NumberToKanji(info.steps.toNumber());
         setCharstoText(steps, _label_walk);
+        System.println("Debug: steps   - " + steps);
 
 
 
@@ -102,7 +99,7 @@ class KanjiView extends WatchUi.WatchFace {
 
 
 
-    function setCharstoText(strs as Array<Char>, texts as Array<Text>) as Void {
+    function setCharstoText(strs as String, texts as Array<Text>) as Void {
         var chars = strs.toCharArray();
         try {
             if (chars.size() > texts.size()) {
