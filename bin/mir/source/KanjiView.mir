@@ -453,55 +453,66 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_70_40_start:
         %tmp.86 = lgetv %batteries.7;
         %tmp.88 = getv ? :_label_battery;
         invoke %tmp.83 %tmp.84(%tmp.86, %tmp.88);
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 89 8 ]
-        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_70_40_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_70_40_stop" ]
-        %info.8 = local;
-        %tmp.89 = getm $.Toybox.ActivityMonitor;
-        %tmp.90 = getv function %tmp.89 :getInfo;
-        %tmp.91 = invoke %tmp.89 %tmp.90();
-        lputv %info.8 %tmp.91;
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 88 8 ]
+        %tmp.89 = getm $.Toybox.System;
+        %tmp.90 = getv function %tmp.89 :println;
+        %tmp.91 = "Debug: battery - ";
+        %tmp.93 = lgetv %batteries.7;
+        %tmp.94 = add %tmp.91 %tmp.93;
+        invoke %tmp.89 %tmp.90(%tmp.94);
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 90 8 ]
         [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_70_40_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_70_40_stop" ]
-        %steps.9 = local;
-        %tmp.92 = "歩";
-        %tmp.93 = self;
-        %tmp.94 = getv function %tmp.93 :NumberToKanji;
-        %tmp.95 = lgetv %info.8;
-        %tmp.96 = getv %tmp.95 :steps;
-        %tmp.97 = getv function %tmp.96 :toNumber;
-        %tmp.98 = invoke %tmp.96 %tmp.97();
-        %tmp.99 = invoke %tmp.93 %tmp.94(%tmp.98);
-        %tmp.100 = add %tmp.92 %tmp.99;
-        lputv %steps.9 %tmp.100;
+        %info.8 = local;
+        %tmp.95 = getm $.Toybox.ActivityMonitor;
+        %tmp.96 = getv function %tmp.95 :getInfo;
+        %tmp.97 = invoke %tmp.95 %tmp.96();
+        lputv %info.8 %tmp.97;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 91 8 ]
-        %tmp.101 = self;
-        %tmp.102 = getv function %tmp.101 :setCharstoText;
-        %tmp.104 = lgetv %steps.9;
-        %tmp.106 = getv ? :_label_walk;
-        invoke %tmp.101 %tmp.102(%tmp.104, %tmp.106);
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 95 8 ]
-        %tmp.108 = getv ? :View;
-        %tmp.109 = getv function %tmp.108 :onUpdate;
-        %tmp.111 = lgetv %dc;
-        invoke %tmp.108 %tmp.109(%tmp.111);
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_70_40_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_70_40_stop" ]
+        %steps.9 = local;
+        %tmp.98 = "歩";
+        %tmp.99 = self;
+        %tmp.100 = getv function %tmp.99 :NumberToKanji;
+        %tmp.101 = 2134;
+        %tmp.102 = invoke %tmp.99 %tmp.100(%tmp.101);
+        %tmp.103 = add %tmp.98 %tmp.102;
+        lputv %steps.9 %tmp.103;
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 92 8 ]
+        %tmp.104 = self;
+        %tmp.105 = getv function %tmp.104 :setCharstoText;
+        %tmp.107 = lgetv %steps.9;
+        %tmp.109 = getv ? :_label_walk;
+        invoke %tmp.104 %tmp.105(%tmp.107, %tmp.109);
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 93 8 ]
+        %tmp.110 = getm $.Toybox.System;
+        %tmp.111 = getv function %tmp.110 :println;
+        %tmp.112 = "Debug: steps   - ";
+        %tmp.114 = lgetv %steps.9;
+        %tmp.115 = add %tmp.112 %tmp.114;
+        invoke %tmp.110 %tmp.111(%tmp.115);
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 97 8 ]
+        %tmp.117 = getv ? :View;
+        %tmp.118 = getv function %tmp.117 :onUpdate;
+        %tmp.120 = lgetv %dc;
+        invoke %tmp.117 %tmp.118(%tmp.120);
 _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_70_40_stop:
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 100; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 102; ]
     function setCharstoText(strs as String, texts as Array<Text>) as Void {
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_100_74_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 101 8 ]
-        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_100_74_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_100_74_stop" ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_74_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 103 8 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_74_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_74_stop" ]
         %chars.1 = local;
         %tmp.1 = lgetv %strs;
         %tmp.2 = getv function %tmp.1 :toCharArray;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %chars.1 %tmp.3;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 102 8 ]
-        try @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_beginTry @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_endTry @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_catch @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_finally;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_beginTry:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_12_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 103 12 ]
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_103_12_if_stmt:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 104 8 ]
+        try @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_beginTry @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_endTry @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_catch @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_finally;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_beginTry:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_12_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 105 12 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_105_12_if_stmt:
         %tmp.4 = lgetv %chars.1;
         %tmp.5 = getv function %tmp.4 :size;
         %tmp.6 = invoke %tmp.4 %tmp.5();
@@ -509,35 +520,35 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_103_12_if_stmt:
         %tmp.8 = getv function %tmp.7 :size;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = gt %tmp.6 %tmp.9;
-        bf %tmp.10 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_103_12_if_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_103_12_if_true:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_103_45_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 104 16 ]
+        bf %tmp.10 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_105_12_if_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_105_12_if_true:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_105_45_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 106 16 ]
         %tmp.13 = getm $.Toybox.Lang;
         %tmp.14 = getv function ? %tmp.13 :Exception;
         %tmp.11 = newc %tmp.14 ();
         throw %tmp.11;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_103_45_stop:
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_103_12_if_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_103_12_if_end:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 106 12 ]
-        for @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_test @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_incr @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_init:
-        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_begin" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_end" ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_105_45_stop:
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_105_12_if_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_105_12_if_end:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 108 12 ]
+        for @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_test @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_incr @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_init:
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_begin" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_end" ]
         %i.2 = local;
         %tmp.15 = 0;
         lputv %i.2 %tmp.15;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_test:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_test:
         %tmp.17 = lgetv %i.2;
         %tmp.18 = lgetv %chars.1;
         %tmp.19 = getv function %tmp.18 :size;
         %tmp.20 = invoke %tmp.18 %tmp.19();
         %tmp.21 = lt %tmp.17 %tmp.20;
-        bf %tmp.21 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_begin:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_52_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 107 16 ]
-        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_52_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_52_stop" ]
+        bf %tmp.21 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_begin:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_52_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 109 16 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_52_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_52_stop" ]
         %ch.3 = local;
         %tmp.23 = lgetv %chars.1;
         %tmp.25 = lgetv %i.2;
@@ -545,90 +556,90 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_52_start:
         %tmp.27 = getv function %tmp.26 :toString;
         %tmp.28 = invoke %tmp.26 %tmp.27();
         lputv %ch.3 %tmp.28;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 108 16 ]
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 110 16 ]
         %tmp.30 = lgetv %texts;
         %tmp.32 = lgetv %i.2;
         %tmp.33 = agetv %tmp.30 %tmp.32;
         %tmp.34 = getv function %tmp.33 :setText;
         %tmp.36 = lgetv %ch.3;
         invoke %tmp.33 %tmp.34(%tmp.36);
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_52_stop:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_incr:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 106 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_52_stop:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_incr:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 108 ]
         %tmp.39 = lgetv %i.2;
         %tmp.40 = add %tmp.39 1;
         lputv %i.2 %tmp.40;
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_test;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_106_12_for_end:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_12_stop:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_endTry:
-        jsr @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_finally;
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_catch:
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_test;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_12_for_end:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_12_stop:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_endTry:
+        jsr @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_finally;
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_catch:
         %tmp.41 = exception;
         push %tmp.41;
-        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_catch" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_111_8_end" ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_catch" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_113_8_end" ]
         %e.4 = local;
         %tmp.42 = dup %tmp.41;
         lputv %e.4 %tmp.42;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_111_17_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 112 12 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_113_17_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 114 12 ]
         %tmp.43 = getm $.Toybox.System;
         %tmp.44 = getv function %tmp.43 :println;
         %tmp.45 = "Object Size is less than Char size. This cause overflow";
         invoke %tmp.43 %tmp.44(%tmp.45);
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_111_17_stop:
-        jsr @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_finally;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_113_17_stop:
+        jsr @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_finally;
         pop;
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_111_8_end:
-        jsr @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_finally;
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_113_8_end:
+        jsr @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_finally;
         throw %tmp.41;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_finally:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_finally:
         jsrret;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_8_end:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_100_74_stop:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_104_8_end:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_102_74_stop:
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 117; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 119; ]
     function NumberToKanji(num as Number) as String {
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_52_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 118 8 ]
-        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_52_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_52_stop" ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_119_52_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 120 8 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_119_52_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_119_52_stop" ]
         %strings.1 = local;
         %tmp.1 = "";
         %tmp.2 = as %tmp.1 String;
         lputv %strings.1 %tmp.2;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 119 8 ]
-        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_52_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_52_stop" ]
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 121 8 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_119_52_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_119_52_stop" ]
         %upper_digit.2 = local;
         %tmp.4 = lgetv %num;
         %tmp.5 = 10;
         %tmp.6 = div %tmp.4 %tmp.5;
         lputv %upper_digit.2 %tmp.6;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 120 8 ]
-        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_52_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_52_stop" ]
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 122 8 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_119_52_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_119_52_stop" ]
         %lower_digit.3 = local;
         %tmp.8 = lgetv %num;
         %tmp.9 = 10;
         %tmp.10 = mod %tmp.8 %tmp.9;
         lputv %lower_digit.3 %tmp.10;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 121 8 ]
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_121_8_if_stmt:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 123 8 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_123_8_if_stmt:
         %tmp.12 = lgetv %num;
         %tmp.13 = 10;
         %tmp.14 = gt %tmp.12 %tmp.13;
-        bf %tmp.14 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_121_8_if_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_121_8_if_true:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_121_22_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 122 12 ]
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_122_12_if_stmt:
+        bf %tmp.14 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_123_8_if_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_123_8_if_true:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_123_22_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 124 12 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_124_12_if_stmt:
         %tmp.16 = lgetv %upper_digit.2;
         %tmp.17 = 1;
         %tmp.18 = gt %tmp.16 %tmp.17;
-        bf %tmp.18 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_122_12_if_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_122_12_if_true:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_122_33_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 123 16 ]
+        bf %tmp.18 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_124_12_if_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_124_12_if_true:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_124_33_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 125 16 ]
         %tmp.19 = lgetv %strings.1;
         %tmp.20 = self;
         %tmp.21 = getv function %tmp.20 :DigitToKanji;
@@ -638,38 +649,38 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_122_33_start:
         %tmp.26 = invoke %tmp.24 %tmp.25();
         %tmp.27 = add %tmp.19 %tmp.26;
         lputv %strings.1 %tmp.27;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_122_33_stop:
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_122_12_if_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_122_12_if_end:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 125 12 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_124_33_stop:
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_124_12_if_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_124_12_if_end:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 127 12 ]
         %tmp.28 = lgetv %strings.1;
         %tmp.29 = "十";
         %tmp.30 = as %tmp.29 String;
         %tmp.31 = add %tmp.28 %tmp.30;
         lputv %strings.1 %tmp.31;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_121_22_stop:
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_121_8_if_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_121_8_if_end:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 127 8 ]
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_8_if_stmt:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_12_begin:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_123_22_stop:
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_123_8_if_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_123_8_if_end:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 129 8 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_8_if_stmt:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_12_begin:
         %tmp.33 = lgetv %lower_digit.3;
         %tmp.34 = 0;
         %tmp.35 = gt %tmp.33 %tmp.34;
         %tmp.36 = dup %tmp.35;
-        bt %tmp.36 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_31_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_31_false:
+        bt %tmp.36 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_31_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_31_false:
         %tmp.38 = lgetv %upper_digit.2;
         %tmp.39 = 0;
         %tmp.40 = eq %tmp.38 %tmp.39;
         %tmp.41 = or %tmp.35 %tmp.40;
         push %tmp.41;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_31_end:
-        %tmp.42 = phi [%tmp.36 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_12_begin] [%tmp.41 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_31_false] [%tmp.42 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_31_end];
-        bf %tmp.42 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_8_if_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_8_if_true:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_49_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 128 12 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_31_end:
+        %tmp.42 = phi [%tmp.36 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_12_begin] [%tmp.41 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_31_false] [%tmp.42 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_31_end];
+        bf %tmp.42 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_8_if_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_8_if_true:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_49_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 130 12 ]
         %tmp.43 = lgetv %strings.1;
         %tmp.44 = self;
         %tmp.45 = getv function %tmp.44 :DigitToKanji;
@@ -679,151 +690,151 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_49_start:
         %tmp.50 = invoke %tmp.48 %tmp.49();
         %tmp.51 = add %tmp.43 %tmp.50;
         lputv %strings.1 %tmp.51;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_49_stop:
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_8_if_end;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_127_8_if_end:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 131 8 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_49_stop:
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_8_if_end;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_129_8_if_end:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 133 8 ]
         %tmp.53 = lgetv %strings.1;
         %tmp.54 = as %tmp.53 String;
         ret %tmp.54;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_52_stop:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_119_52_stop:
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 134; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 136; ]
     function DigitToKanji(num as Number) as String {
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_134_51_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 135 8 ]
-        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_134_51_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_134_51_stop" ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_51_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 137 8 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_51_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_51_stop" ]
         %character.1 = local;
         %tmp.1 = "None";
         lputv %character.1 %tmp.1;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 136 8 ]
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 138 8 ]
         %tmp.3 = lgetv %num;
         push %tmp.3;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseBegin:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseBegin:
         %tmp.4 = dup %tmp.3;
         %tmp.5 = 0;
         %tmp.6 = getv function %tmp.4 :equals;
         %tmp.7 = invoke %tmp.4 %tmp.6 (%tmp.5);
-        bt %tmp.7 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_137_12;
+        bt %tmp.7 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_139_12;
         %tmp.8 = dup %tmp.3;
         %tmp.9 = 1;
         %tmp.10 = getv function %tmp.8 :equals;
         %tmp.11 = invoke %tmp.8 %tmp.10 (%tmp.9);
-        bt %tmp.11 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_140_12;
+        bt %tmp.11 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_142_12;
         %tmp.12 = dup %tmp.3;
         %tmp.13 = 2;
         %tmp.14 = getv function %tmp.12 :equals;
         %tmp.15 = invoke %tmp.12 %tmp.14 (%tmp.13);
-        bt %tmp.15 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_143_12;
+        bt %tmp.15 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_145_12;
         %tmp.16 = dup %tmp.3;
         %tmp.17 = 3;
         %tmp.18 = getv function %tmp.16 :equals;
         %tmp.19 = invoke %tmp.16 %tmp.18 (%tmp.17);
-        bt %tmp.19 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_146_12;
+        bt %tmp.19 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_148_12;
         %tmp.20 = dup %tmp.3;
         %tmp.21 = 4;
         %tmp.22 = getv function %tmp.20 :equals;
         %tmp.23 = invoke %tmp.20 %tmp.22 (%tmp.21);
-        bt %tmp.23 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_149_12;
+        bt %tmp.23 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_151_12;
         %tmp.24 = dup %tmp.3;
         %tmp.25 = 5;
         %tmp.26 = getv function %tmp.24 :equals;
         %tmp.27 = invoke %tmp.24 %tmp.26 (%tmp.25);
-        bt %tmp.27 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_152_12;
+        bt %tmp.27 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_154_12;
         %tmp.28 = dup %tmp.3;
         %tmp.29 = 6;
         %tmp.30 = getv function %tmp.28 :equals;
         %tmp.31 = invoke %tmp.28 %tmp.30 (%tmp.29);
-        bt %tmp.31 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_155_12;
+        bt %tmp.31 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_157_12;
         %tmp.32 = dup %tmp.3;
         %tmp.33 = 7;
         %tmp.34 = getv function %tmp.32 :equals;
         %tmp.35 = invoke %tmp.32 %tmp.34 (%tmp.33);
-        bt %tmp.35 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_158_12;
+        bt %tmp.35 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_160_12;
         %tmp.36 = dup %tmp.3;
         %tmp.37 = 8;
         %tmp.38 = getv function %tmp.36 :equals;
         %tmp.39 = invoke %tmp.36 %tmp.38 (%tmp.37);
-        bt %tmp.39 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_161_12;
+        bt %tmp.39 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_163_12;
         %tmp.40 = dup %tmp.3;
         %tmp.41 = 9;
         %tmp.42 = getv function %tmp.40 :equals;
         %tmp.43 = invoke %tmp.40 %tmp.42 (%tmp.41);
-        bt %tmp.43 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_164_12;
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_defaultCodeBegin;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_137_12:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 138 16 ]
+        bt %tmp.43 @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_166_12;
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_defaultCodeBegin;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_139_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 140 16 ]
         %tmp.44 = "零";
         lputv %character.1 %tmp.44;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 139 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_140_12:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 141 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_142_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 143 16 ]
         %tmp.45 = "一";
         lputv %character.1 %tmp.45;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 142 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_143_12:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 144 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_145_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 146 16 ]
         %tmp.46 = "二";
         lputv %character.1 %tmp.46;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 145 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_146_12:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 147 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_148_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 149 16 ]
         %tmp.47 = "三";
         lputv %character.1 %tmp.47;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 148 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_149_12:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 150 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_151_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 152 16 ]
         %tmp.48 = "四";
         lputv %character.1 %tmp.48;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 151 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_152_12:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 153 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_154_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 155 16 ]
         %tmp.49 = "五";
         lputv %character.1 %tmp.49;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 154 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_155_12:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 156 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_157_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 158 16 ]
         %tmp.50 = "六";
         lputv %character.1 %tmp.50;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 157 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_158_12:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 159 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_160_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 161 16 ]
         %tmp.51 = "七";
         lputv %character.1 %tmp.51;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 160 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_161_12:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 162 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_163_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 164 16 ]
         %tmp.52 = "八";
         lputv %character.1 %tmp.52;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 163 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_164_12:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 165 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_166_12:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 167 16 ]
         %tmp.53 = "九";
         lputv %character.1 %tmp.53;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 166 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_167_12:
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_defaultCodeBegin:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 168 16 ]
-        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_8_switchCaseEnd:
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_169_12:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_defaultCodeBegin:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 170 16 ]
+        goto @_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_138_8_switchCaseEnd:
         pop;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 170 8 ]
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 172 8 ]
         %tmp.55 = lgetv %character.1;
         %tmp.56 = as %tmp.55 String;
         ret %tmp.56;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_134_51_stop:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_136_51_stop:
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 174; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 176; ]
     function onHide() as Void {
     }
 }
