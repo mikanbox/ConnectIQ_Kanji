@@ -1,6 +1,6 @@
 <resources>
     <fonts>
-        <font id="sample2_font" filename="fonts/small.fnt" filter="零一二三四五六七八九十百千万億兆電歩時分秒日月年" />
-        <font id="large_font" filename="fonts/large.fnt" filter="零一二三四五六七八九十百千万億兆電歩時分秒日月年" />
+        <font id="sample2_font" filename="fonts/small.fnt" filter="零一二三四五六七八九十百千万億兆電歩時分秒日月年 " />
+        <font id="large_font" filename="fonts/large.fnt" filter="零一二三四五六七八九十百千万億兆電歩時分秒日月年 " />
     </fonts>
 </resources>

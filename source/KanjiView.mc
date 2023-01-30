@@ -14,7 +14,7 @@ class KanjiView extends WatchUi.WatchFace {
     public var _timetext_day as Array<Text> = new[4] as Array<Text>;
 
     public var _label_battery as Array<Text> = new[4] as Array<Text>;
-    public var _label_walk as Array<Text> = new[8] as Array<Text>;
+    public var _label_walk as Array<Text> = new[7] as Array<Text>;
 
     function initialize() {
         WatchFace.initialize();
@@ -52,7 +52,6 @@ class KanjiView extends WatchUi.WatchFace {
         _label_walk[4] = View.findDrawableById("Label_Walk5") as Text;
         _label_walk[5] = View.findDrawableById("Label_Walk6") as Text;
         _label_walk[6] = View.findDrawableById("Label_Walk7") as Text;
-        _label_walk[7] = View.findDrawableById("Label_Walk8") as Text;
 
 
         _label_battery[0] = View.findDrawableById("Label_Battery1") as Text;
@@ -70,28 +69,28 @@ class KanjiView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 
-        var minutes = NumberToKanji(today.min.toNumber()) + "分";
+        var minutes = NumbersToKanjiNumbers(today.min.toNumber()) + "分";
         setCharstoText(minutes, _timetext_mm);
-        var hours = NumberToKanji(today.hour.toNumber()) + "時";
+        var hours = NumbersToKanjiNumbers(today.hour.toNumber()) + "時";
         setCharstoText(hours, _timetext_hh);
+        System.println("Debug: hour   - " + hours);
 
-        var days = NumberToKanji(today.day.toNumber()) + "日";
+        var days = NumbersToKanjiNumbers(today.day.toNumber()) + "日";
         setCharstoText(days, _timetext_day);
 
-        var monthes = NumberToKanji(today.month.toNumber()) + "月";
+        var monthes = NumbersToKanjiNumbers(today.month.toNumber()) + "月";
         setCharstoText(monthes, _timetext_month);
 
 
         var myStats = System.getSystemStats();
-        var batteries = "電" + NumberToKanji(myStats.battery.toNumber());
+        var batteries = "電" + NumbersToKanjiNumbers(myStats.battery.toNumber());
         setCharstoText(batteries, _label_battery);
         System.println("Debug: battery - " + batteries);
 
         var info = ActivityMonitor.getInfo();
-        var steps = "歩" + NumberToKanji(info.steps.toNumber());
+        var steps = "歩" + NumbersToKanjiChars(info.steps.toNumber());
         setCharstoText(steps, _label_walk);
         System.println("Debug: steps   - " + steps);
-
 
 
         View.onUpdate(dc);
@@ -101,13 +100,19 @@ class KanjiView extends WatchUi.WatchFace {
 
     function setCharstoText(strs as String, texts as Array<Text>) as Void {
         var chars = strs.toCharArray();
+        var space = "" as String;
         try {
             if (chars.size() > texts.size()) {
                 throw new Lang.Exception();
             }
-            for( var i = 0; i < chars.size(); i++ ) {
+            for(var i = 0; i < chars.size(); i++ ) {
                 var ch = chars[i].toString();
                 texts[i].setText(ch);
+            }
+            if (texts.size() - chars.size() > 0) {
+                for(var i = chars.size(); i < texts.size(); i++ ) {
+                    texts[i].setText("" as String);
+                }
             }
         }
         catch(e) {
@@ -115,12 +120,24 @@ class KanjiView extends WatchUi.WatchFace {
         }
     }
 
+    function NumbersToKanjiChars(num as Number) as String {
+        var strings = "" as String;
 
-    function NumberToKanji(num as Number) as String {
+        while(!(num < 10)) {
+            var p = num;
+            while (p >= 10){p /= 10;}
+            strings += DigitToKanji(p).toString();
+            num /= 10;
+        }
+        strings += DigitToKanji(num).toString();
+        return strings as String;
+    }
+
+    function NumbersToKanjiNumbers(num as Number) as String {
         var strings = "" as String;
         var upper_digit = num / 10;
         var lower_digit = num % 10;
-        if (num > 10) {
+        if (num >= 10) {
             if (upper_digit > 1) {
                 strings += DigitToKanji(upper_digit).toString();
             }
