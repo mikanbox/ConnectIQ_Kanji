@@ -2,403 +2,513 @@
 <debugInfo>
     <manifest filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="1" lineNum="19" parent="globals/KanjiView" pc="268435456" symbol="initialize"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="1" lineNum="20" parent="globals/KanjiView" pc="268435460" symbol="initialize"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="23" parent="globals/KanjiView" pc="268435479" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="24" parent="globals/KanjiView" pc="268435483" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="26" parent="globals/KanjiView" pc="268435520" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="27" parent="globals/KanjiView" pc="268435556" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="28" parent="globals/KanjiView" pc="268435592" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="29" parent="globals/KanjiView" pc="268435628" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="31" parent="globals/KanjiView" pc="268435664" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="32" parent="globals/KanjiView" pc="268435700" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="33" parent="globals/KanjiView" pc="268435736" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="34" parent="globals/KanjiView" pc="268435772" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="37" parent="globals/KanjiView" pc="268435808" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="38" parent="globals/KanjiView" pc="268435844" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="39" parent="globals/KanjiView" pc="268435880" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="41" parent="globals/KanjiView" pc="268435916" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="42" parent="globals/KanjiView" pc="268435952" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="43" parent="globals/KanjiView" pc="268435988" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="44" parent="globals/KanjiView" pc="268436024" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="48" parent="globals/KanjiView" pc="268436060" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="49" parent="globals/KanjiView" pc="268436096" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="50" parent="globals/KanjiView" pc="268436132" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="51" parent="globals/KanjiView" pc="268436168" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="52" parent="globals/KanjiView" pc="268436204" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="53" parent="globals/KanjiView" pc="268436240" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="54" parent="globals/KanjiView" pc="268436276" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="57" parent="globals/KanjiView" pc="268436312" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="58" parent="globals/KanjiView" pc="268436348" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="59" parent="globals/KanjiView" pc="268436384" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="2" lineNum="60" parent="globals/KanjiView" pc="268436420" symbol="onLayout"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="3" lineNum="63" parent="globals/KanjiView" pc="268436457" symbol="onShow"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="69" parent="globals/KanjiView" pc="268436462" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="70" parent="globals/KanjiView" pc="268436466" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="72" parent="globals/KanjiView" pc="268436514" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="73" parent="globals/KanjiView" pc="268436550" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="74" parent="globals/KanjiView" pc="268436572" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="75" parent="globals/KanjiView" pc="268436608" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="76" parent="globals/KanjiView" pc="268436630" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="78" parent="globals/KanjiView" pc="268436654" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="79" parent="globals/KanjiView" pc="268436690" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="81" parent="globals/KanjiView" pc="268436712" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="82" parent="globals/KanjiView" pc="268436748" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="85" parent="globals/KanjiView" pc="268436770" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="86" parent="globals/KanjiView" pc="268436787" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="87" parent="globals/KanjiView" pc="268436823" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="88" parent="globals/KanjiView" pc="268436845" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="90" parent="globals/KanjiView" pc="268436869" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="91" parent="globals/KanjiView" pc="268436886" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="92" parent="globals/KanjiView" pc="268436922" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="93" parent="globals/KanjiView" pc="268436944" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="4" lineNum="96" parent="globals/KanjiView" pc="268436968" symbol="onUpdate"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="101" parent="globals/KanjiView" pc="268436989" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="102" parent="globals/KanjiView" pc="268436993" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="103" parent="globals/KanjiView" pc="268437006" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="104" parent="globals/KanjiView" pc="268437013" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="105" parent="globals/KanjiView" pc="268437013" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="106" parent="globals/KanjiView" pc="268437039" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="108" parent="globals/KanjiView" pc="268437069" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="109" parent="globals/KanjiView" pc="268437093" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="110" parent="globals/KanjiView" pc="268437109" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="112" parent="globals/KanjiView" pc="268437139" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="113" parent="globals/KanjiView" pc="268437171" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="114" parent="globals/KanjiView" pc="268437201" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="5" lineNum="119" parent="globals/KanjiView" pc="268437247" symbol="setCharstoText"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="123" parent="globals/KanjiView" pc="268437281" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="124" parent="globals/KanjiView" pc="268437285" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="126" parent="globals/KanjiView" pc="268437292" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="127" parent="globals/KanjiView" pc="268437304" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="128" parent="globals/KanjiView" pc="268437308" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="128" parent="globals/KanjiView" pc="268437319" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="129" parent="globals/KanjiView" pc="268437332" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="130" parent="globals/KanjiView" pc="268437359" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="132" parent="globals/KanjiView" pc="268437372" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="6" lineNum="133" parent="globals/KanjiView" pc="268437399" symbol="NumbersToKanjiChars"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="136" parent="globals/KanjiView" pc="268437403" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="137" parent="globals/KanjiView" pc="268437407" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="138" parent="globals/KanjiView" pc="268437414" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="139" parent="globals/KanjiView" pc="268437424" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="140" parent="globals/KanjiView" pc="268437434" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="141" parent="globals/KanjiView" pc="268437445" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="142" parent="globals/KanjiView" pc="268437456" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="144" parent="globals/KanjiView" pc="268437486" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="146" parent="globals/KanjiView" pc="268437499" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="147" parent="globals/KanjiView" pc="268437524" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="7" lineNum="150" parent="globals/KanjiView" pc="268437554" symbol="NumbersToKanjiNumbers"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="153" parent="globals/KanjiView" pc="268437558" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="154" parent="globals/KanjiView" pc="268437562" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="155" parent="globals/KanjiView" pc="268437569" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="187" parent="globals/KanjiView" pc="268437771" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="157" parent="globals/KanjiView" pc="268437777" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="158" parent="globals/KanjiView" pc="268437784" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="160" parent="globals/KanjiView" pc="268437787" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="161" parent="globals/KanjiView" pc="268437794" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="163" parent="globals/KanjiView" pc="268437797" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="164" parent="globals/KanjiView" pc="268437804" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="166" parent="globals/KanjiView" pc="268437807" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="167" parent="globals/KanjiView" pc="268437814" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="169" parent="globals/KanjiView" pc="268437817" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="170" parent="globals/KanjiView" pc="268437824" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="172" parent="globals/KanjiView" pc="268437827" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="173" parent="globals/KanjiView" pc="268437834" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="175" parent="globals/KanjiView" pc="268437837" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="176" parent="globals/KanjiView" pc="268437844" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="178" parent="globals/KanjiView" pc="268437847" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="179" parent="globals/KanjiView" pc="268437854" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="181" parent="globals/KanjiView" pc="268437857" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="182" parent="globals/KanjiView" pc="268437864" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="184" parent="globals/KanjiView" pc="268437867" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="185" parent="globals/KanjiView" pc="268437874" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="8" lineNum="189" parent="globals/KanjiView" pc="268437880" symbol="DigitToKanji"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="9" lineNum="193" parent="globals/KanjiView" pc="268437884" symbol="onHide"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="9" parent="globals/KanjiView" pc="268441793" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="10" parent="globals/KanjiView" pc="268441811" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="11" parent="globals/KanjiView" pc="268441825" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="13" parent="globals/KanjiView" pc="268441839" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="14" parent="globals/KanjiView" pc="268441853" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="16" parent="globals/KanjiView" pc="268441867" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="17" parent="globals/KanjiView" pc="268441881" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="9" parent="globals/KanjiView" pc="268441793" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="12" lineNum="7" parent="globals/KanjiApp" pc="268437889" symbol="initialize"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="12" lineNum="8" parent="globals/KanjiApp" pc="268437893" symbol="initialize"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="13" lineNum="11" parent="globals/KanjiApp" pc="268437912" symbol="getInitialView"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="13" lineNum="12" parent="globals/KanjiApp" pc="268437916" symbol="getInitialView"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="14" lineNum="5" parent="globals/KanjiApp" pc="268441725" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="14" lineNum="5" parent="globals/KanjiApp" pc="268441725" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="15" lineNum="17" parent="globals" pc="268437954" symbol="getApp"/>
-        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="15" lineNum="18" parent="globals" pc="268437966" symbol="getApp"/>
-        <entry filename="Rez" id="17" lineNum="12" parent="globals/Rez/Drawables/background" pc="268437983" symbol="initialize"/>
-        <entry filename="Rez" id="17" lineNum="13" parent="globals/Rez/Drawables/background" pc="268437987" symbol="initialize"/>
-        <entry filename="Rez" id="18" lineNum="16" parent="globals/Rez/Drawables/background" pc="268438012" symbol="draw"/>
-        <entry filename="Rez" id="18" lineNum="18" parent="globals/Rez/Drawables/background" pc="268438016" symbol="draw"/>
-        <entry filename="Rez" id="18" lineNum="19" parent="globals/Rez/Drawables/background" pc="268438052" symbol="draw"/>
-        <entry filename="Rez" id="19" lineNum="10" parent="globals/Rez/Drawables/background" pc="268441769" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="19" lineNum="10" parent="globals/Rez/Drawables/background" pc="268441769" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="20" lineNum="2" parent="globals/Rez/Drawables" pc="268441768" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="21" lineNum="26" parent="globals/Rez/Fonts" pc="268441789" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="22" lineNum="31" parent="globals/Rez/JsonData" pc="268441791" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="23" lineNum="40" parent="globals/Rez/Layouts" pc="268438085" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="41" parent="globals/Rez/Layouts" pc="268438097" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="42" parent="globals/Rez/Layouts" pc="268438138" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="44" parent="globals/Rez/Layouts" pc="268438179" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="45" parent="globals/Rez/Layouts" pc="268438219" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="46" parent="globals/Rez/Layouts" pc="268438232" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="48" parent="globals/Rez/Layouts" pc="268438248" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="49" parent="globals/Rez/Layouts" pc="268438371" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="50" parent="globals/Rez/Layouts" pc="268438494" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="51" parent="globals/Rez/Layouts" pc="268438617" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="52" parent="globals/Rez/Layouts" pc="268438740" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="53" parent="globals/Rez/Layouts" pc="268438863" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="54" parent="globals/Rez/Layouts" pc="268438986" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="55" parent="globals/Rez/Layouts" pc="268439109" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="56" parent="globals/Rez/Layouts" pc="268439232" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="57" parent="globals/Rez/Layouts" pc="268439355" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="58" parent="globals/Rez/Layouts" pc="268439478" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="59" parent="globals/Rez/Layouts" pc="268439601" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="60" parent="globals/Rez/Layouts" pc="268439724" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="61" parent="globals/Rez/Layouts" pc="268439847" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="62" parent="globals/Rez/Layouts" pc="268439970" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="63" parent="globals/Rez/Layouts" pc="268440093" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="64" parent="globals/Rez/Layouts" pc="268440216" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="65" parent="globals/Rez/Layouts" pc="268440339" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="66" parent="globals/Rez/Layouts" pc="268440462" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="67" parent="globals/Rez/Layouts" pc="268440585" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="68" parent="globals/Rez/Layouts" pc="268440708" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="69" parent="globals/Rez/Layouts" pc="268440831" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="70" parent="globals/Rez/Layouts" pc="268440954" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="71" parent="globals/Rez/Layouts" pc="268441077" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="72" parent="globals/Rez/Layouts" pc="268441200" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="73" parent="globals/Rez/Layouts" pc="268441323" symbol="WatchFace"/>
-        <entry filename="Rez" id="23" lineNum="75" parent="globals/Rez/Layouts" pc="268441446" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="33" parent="globals/Rez/Layouts" pc="268441790" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="25" lineNum="80" parent="globals/Rez/Menus" pc="268441788" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="26" lineNum="82" parent="globals/Rez/Strings" pc="268441792" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="27" lineNum="1" parent="globals/Rez" pc="268441744" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="27" lineNum="1" parent="globals/Rez" pc="268441744" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="9" parent="globals/Num2Kanji" pc="268435456" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="10" parent="globals/Num2Kanji" pc="268435468" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="12" parent="globals/Num2Kanji" pc="268435475" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="13" parent="globals/Num2Kanji" pc="268435487" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="14" parent="globals/Num2Kanji" pc="268435491" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="14" parent="globals/Num2Kanji" pc="268435502" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="15" parent="globals/Num2Kanji" pc="268435515" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="16" parent="globals/Num2Kanji" pc="268435542" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="18" parent="globals/Num2Kanji" pc="268435555" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="1" lineNum="19" parent="globals/Num2Kanji" pc="268435582" symbol="NumbersToKanjiChars"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="22" parent="globals/Num2Kanji" pc="268435586" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="23" parent="globals/Num2Kanji" pc="268435598" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="24" parent="globals/Num2Kanji" pc="268435605" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="25" parent="globals/Num2Kanji" pc="268435615" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="26" parent="globals/Num2Kanji" pc="268435625" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="27" parent="globals/Num2Kanji" pc="268435636" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="28" parent="globals/Num2Kanji" pc="268435647" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="30" parent="globals/Num2Kanji" pc="268435677" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="32" parent="globals/Num2Kanji" pc="268435690" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="33" parent="globals/Num2Kanji" pc="268435715" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="2" lineNum="36" parent="globals/Num2Kanji" pc="268435745" symbol="NumbersToKanjiNumbers"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="39" parent="globals/Num2Kanji" pc="268435749" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="40" parent="globals/Num2Kanji" pc="268435761" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="41" parent="globals/Num2Kanji" pc="268435768" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="73" parent="globals/Num2Kanji" pc="268435970" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="43" parent="globals/Num2Kanji" pc="268435976" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="44" parent="globals/Num2Kanji" pc="268435983" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="46" parent="globals/Num2Kanji" pc="268435986" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="47" parent="globals/Num2Kanji" pc="268435993" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="49" parent="globals/Num2Kanji" pc="268435996" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="50" parent="globals/Num2Kanji" pc="268436003" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="52" parent="globals/Num2Kanji" pc="268436006" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="53" parent="globals/Num2Kanji" pc="268436013" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="55" parent="globals/Num2Kanji" pc="268436016" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="56" parent="globals/Num2Kanji" pc="268436023" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="58" parent="globals/Num2Kanji" pc="268436026" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="59" parent="globals/Num2Kanji" pc="268436033" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="61" parent="globals/Num2Kanji" pc="268436036" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="62" parent="globals/Num2Kanji" pc="268436043" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="64" parent="globals/Num2Kanji" pc="268436046" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="65" parent="globals/Num2Kanji" pc="268436053" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="67" parent="globals/Num2Kanji" pc="268436056" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="68" parent="globals/Num2Kanji" pc="268436063" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="70" parent="globals/Num2Kanji" pc="268436066" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="71" parent="globals/Num2Kanji" pc="268436073" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="3" lineNum="75" parent="globals/Num2Kanji" pc="268436079" symbol="DigitToKanji"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/Num2Kanji.mc" id="4" lineNum="8" parent="globals/Num2Kanji" pc="268441995" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="9" parent="globals/ViewUtil" pc="268436083" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="10" parent="globals/ViewUtil" pc="268436087" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="11" parent="globals/ViewUtil" pc="268436100" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="12" parent="globals/ViewUtil" pc="268436107" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="13" parent="globals/ViewUtil" pc="268436131" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="15" parent="globals/ViewUtil" pc="268436164" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="16" parent="globals/ViewUtil" pc="268436164" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="17" parent="globals/ViewUtil" pc="268436190" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="19" parent="globals/ViewUtil" pc="268436220" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="20" parent="globals/ViewUtil" pc="268436244" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="21" parent="globals/ViewUtil" pc="268436260" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="23" parent="globals/ViewUtil" pc="268436290" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="24" parent="globals/ViewUtil" pc="268436322" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="25" parent="globals/ViewUtil" pc="268436352" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="6" lineNum="30" parent="globals/ViewUtil" pc="268436398" symbol="setCharstoText"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="7" lineNum="8" parent="globals/ViewUtil" pc="268441996" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/ViewUtil.mc" id="8" lineNum="8" parent="globals/ViewUtil" pc="268436432" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="9" parent="globals/ViewController" pc="268436435" symbol="init"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="10" parent="globals/ViewController" pc="268436439" symbol="init"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="10" lineNum="11" parent="globals/ViewController" pc="268436463" symbol="init"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="11" lineNum="8" parent="globals/ViewController" pc="268441780" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="12" lineNum="8" parent="globals/ViewController" pc="268436481" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="13" lineNum="19" parent="globals/TimeView" pc="268436484" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="13" lineNum="20" parent="globals/TimeView" pc="268436488" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="13" lineNum="21" parent="globals/TimeView" pc="268436518" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="13" lineNum="22" parent="globals/TimeView" pc="268436548" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="13" lineNum="23" parent="globals/TimeView" pc="268436578" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="13" lineNum="25" parent="globals/TimeView" pc="268436608" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="13" lineNum="26" parent="globals/TimeView" pc="268436638" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="13" lineNum="27" parent="globals/TimeView" pc="268436668" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="13" lineNum="28" parent="globals/TimeView" pc="268436698" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="14" lineNum="31" parent="globals/TimeView" pc="268436729" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="14" lineNum="32" parent="globals/TimeView" pc="268436733" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="14" lineNum="33" parent="globals/TimeView" pc="268436781" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="14" lineNum="34" parent="globals/TimeView" pc="268436823" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="14" lineNum="35" parent="globals/TimeView" pc="268436845" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="14" lineNum="36" parent="globals/TimeView" pc="268436887" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="15" lineNum="15" parent="globals/TimeView" pc="268441948" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="15" lineNum="16" parent="globals/TimeView" pc="268441966" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="15" lineNum="17" parent="globals/TimeView" pc="268441980" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="15" lineNum="15" parent="globals/TimeView" pc="268441948" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="16" lineNum="44" parent="globals/DateView" pc="268436910" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="16" lineNum="45" parent="globals/DateView" pc="268436914" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="16" lineNum="46" parent="globals/DateView" pc="268436944" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="16" lineNum="47" parent="globals/DateView" pc="268436974" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="16" lineNum="49" parent="globals/DateView" pc="268437004" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="16" lineNum="50" parent="globals/DateView" pc="268437034" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="16" lineNum="51" parent="globals/DateView" pc="268437064" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="16" lineNum="52" parent="globals/DateView" pc="268437094" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="17" lineNum="55" parent="globals/DateView" pc="268437125" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="17" lineNum="56" parent="globals/DateView" pc="268437129" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="17" lineNum="57" parent="globals/DateView" pc="268437177" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="17" lineNum="58" parent="globals/DateView" pc="268437219" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="17" lineNum="60" parent="globals/DateView" pc="268437241" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="17" lineNum="61" parent="globals/DateView" pc="268437283" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="18" lineNum="40" parent="globals/DateView" pc="268441833" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="18" lineNum="41" parent="globals/DateView" pc="268441851" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="18" lineNum="42" parent="globals/DateView" pc="268441865" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="18" lineNum="40" parent="globals/DateView" pc="268441833" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="19" lineNum="67" parent="globals/BatteryView" pc="268437306" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="19" lineNum="68" parent="globals/BatteryView" pc="268437310" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="19" lineNum="69" parent="globals/BatteryView" pc="268437346" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="19" lineNum="70" parent="globals/BatteryView" pc="268437382" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="19" lineNum="71" parent="globals/BatteryView" pc="268437418" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="20" lineNum="73" parent="globals/BatteryView" pc="268437455" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="21" lineNum="65" parent="globals/BatteryView" pc="268441800" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="21" lineNum="66" parent="globals/BatteryView" pc="268441818" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="21" lineNum="65" parent="globals/BatteryView" pc="268441800" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="22" lineNum="83" parent="globals/WalkView" pc="268437460" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="22" lineNum="84" parent="globals/WalkView" pc="268437464" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="22" lineNum="85" parent="globals/WalkView" pc="268437500" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="22" lineNum="86" parent="globals/WalkView" pc="268437536" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="22" lineNum="87" parent="globals/WalkView" pc="268437572" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="22" lineNum="88" parent="globals/WalkView" pc="268437608" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="22" lineNum="89" parent="globals/WalkView" pc="268437644" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="22" lineNum="90" parent="globals/WalkView" pc="268437680" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="23" lineNum="92" parent="globals/WalkView" pc="268437717" symbol="update"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="24" lineNum="81" parent="globals/WalkView" pc="268441997" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="24" lineNum="82" parent="globals/WalkView" pc="268442015" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="24" lineNum="81" parent="globals/WalkView" pc="268441997" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="25" lineNum="107" parent="globals/KanjiView" pc="268437722" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="25" lineNum="108" parent="globals/KanjiView" pc="268437726" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="26" lineNum="111" parent="globals/KanjiView" pc="268437745" symbol="onLayout"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="26" lineNum="112" parent="globals/KanjiView" pc="268437749" symbol="onLayout"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="26" lineNum="113" parent="globals/KanjiView" pc="268437786" symbol="onLayout"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="26" lineNum="114" parent="globals/KanjiView" pc="268437818" symbol="onLayout"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="27" lineNum="117" parent="globals/KanjiView" pc="268437851" symbol="onUpdate"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="27" lineNum="118" parent="globals/KanjiView" pc="268437855" symbol="onUpdate"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="27" lineNum="119" parent="globals/KanjiView" pc="268437873" symbol="onUpdate"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="27" lineNum="121" parent="globals/KanjiView" pc="268437891" symbol="onUpdate"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="28" lineNum="124" parent="globals/KanjiView" pc="268437912" symbol="onHide"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="29" lineNum="126" parent="globals/KanjiView" pc="268437917" symbol="onShow"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="30" lineNum="100" parent="globals/KanjiView" pc="268441781" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiView.mc" id="30" lineNum="100" parent="globals/KanjiView" pc="268441781" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="32" lineNum="7" parent="globals/KanjiApp" pc="268437922" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="32" lineNum="8" parent="globals/KanjiApp" pc="268437926" symbol="initialize"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="33" lineNum="11" parent="globals/KanjiApp" pc="268437945" symbol="getInitialView"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="33" lineNum="13" parent="globals/KanjiApp" pc="268437949" symbol="getInitialView"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="34" lineNum="5" parent="globals/KanjiApp" pc="268441929" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="34" lineNum="5" parent="globals/KanjiApp" pc="268441929" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="35" lineNum="18" parent="globals" pc="268437968" symbol="getApp"/>
+        <entry filename="/Users/shuaki/_UserScript/ConnectIQ/Kanji/source/KanjiApp.mc" id="35" lineNum="19" parent="globals" pc="268437980" symbol="getApp"/>
+        <entry filename="Rez" id="37" lineNum="12" parent="globals/Rez/Drawables/background" pc="268437997" symbol="initialize"/>
+        <entry filename="Rez" id="37" lineNum="13" parent="globals/Rez/Drawables/background" pc="268438001" symbol="initialize"/>
+        <entry filename="Rez" id="38" lineNum="16" parent="globals/Rez/Drawables/background" pc="268438026" symbol="draw"/>
+        <entry filename="Rez" id="38" lineNum="18" parent="globals/Rez/Drawables/background" pc="268438030" symbol="draw"/>
+        <entry filename="Rez" id="38" lineNum="19" parent="globals/Rez/Drawables/background" pc="268438066" symbol="draw"/>
+        <entry filename="Rez" id="39" lineNum="10" parent="globals/Rez/Drawables/background" pc="268441905" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="39" lineNum="10" parent="globals/Rez/Drawables/background" pc="268441905" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="40" lineNum="2" parent="globals/Rez/Drawables" pc="268441904" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="41" lineNum="26" parent="globals/Rez/Fonts" pc="268441925" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="42" lineNum="33" parent="globals/Rez/JsonData" pc="268441927" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="43" lineNum="42" parent="globals/Rez/Layouts" pc="268438099" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="43" parent="globals/Rez/Layouts" pc="268438111" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="44" parent="globals/Rez/Layouts" pc="268438152" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="45" parent="globals/Rez/Layouts" pc="268438193" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="47" parent="globals/Rez/Layouts" pc="268438234" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="48" parent="globals/Rez/Layouts" pc="268438274" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="49" parent="globals/Rez/Layouts" pc="268438287" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="51" parent="globals/Rez/Layouts" pc="268438303" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="52" parent="globals/Rez/Layouts" pc="268438426" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="53" parent="globals/Rez/Layouts" pc="268438549" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="54" parent="globals/Rez/Layouts" pc="268438672" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="55" parent="globals/Rez/Layouts" pc="268438795" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="56" parent="globals/Rez/Layouts" pc="268438918" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="57" parent="globals/Rez/Layouts" pc="268439041" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="58" parent="globals/Rez/Layouts" pc="268439164" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="59" parent="globals/Rez/Layouts" pc="268439287" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="60" parent="globals/Rez/Layouts" pc="268439410" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="61" parent="globals/Rez/Layouts" pc="268439533" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="62" parent="globals/Rez/Layouts" pc="268439656" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="63" parent="globals/Rez/Layouts" pc="268439779" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="64" parent="globals/Rez/Layouts" pc="268439902" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="65" parent="globals/Rez/Layouts" pc="268440025" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="66" parent="globals/Rez/Layouts" pc="268440148" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="67" parent="globals/Rez/Layouts" pc="268440271" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="68" parent="globals/Rez/Layouts" pc="268440394" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="69" parent="globals/Rez/Layouts" pc="268440517" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="70" parent="globals/Rez/Layouts" pc="268440640" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="71" parent="globals/Rez/Layouts" pc="268440763" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="72" parent="globals/Rez/Layouts" pc="268440886" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="73" parent="globals/Rez/Layouts" pc="268441009" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="74" parent="globals/Rez/Layouts" pc="268441132" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="75" parent="globals/Rez/Layouts" pc="268441255" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="76" parent="globals/Rez/Layouts" pc="268441378" symbol="WatchFace"/>
+        <entry filename="Rez" id="43" lineNum="78" parent="globals/Rez/Layouts" pc="268441501" symbol="WatchFace"/>
+        <entry filename="Rez" id="44" lineNum="35" parent="globals/Rez/Layouts" pc="268441926" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="45" lineNum="83" parent="globals/Rez/Menus" pc="268441924" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="46" lineNum="85" parent="globals/Rez/Strings" pc="268441928" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="47" lineNum="1" parent="globals/Rez" pc="268441880" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="47" lineNum="1" parent="globals/Rez" pc="268441880" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="15" symbol="large_font"/>
+        <entry field="true" id="31" symbol="large_font"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="19" method="true" symbol="init"/>
+        <entry id="9" module="true" symbol="globals/Num2Kanji"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="12" object="true" symbol="ViewController"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="16" symbol="AppName"/>
+        <entry id="11" object="true" symbol="ViewUtil"/>
+        <entry field="true" id="35" symbol="text_mm"/>
+        <entry field="true" id="34" symbol="AppName"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="36" symbol="text_hh"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="20" symbol="&lt;globals/KanjiView/&lt;&gt;timeview&gt;"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="10" module="true" symbol="Num2Kanji"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry id="23" method="true" symbol="setCharstoText"/>
+        <entry id="40" method="true" symbol="setCharstoText"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="12" module="true" symbol="Menus"/>
+        <entry id="28" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry id="10" object="true" symbol="KanjiApp"/>
+        <entry id="18" object="true" symbol="KanjiApp"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="25" method="true" symbol="NumbersToKanjiNumbers"/>
+        <entry id="38" method="true" symbol="NumbersToKanjiNumbers"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
         <entry field="true" id="8389892" object="true" symbol="background"/>
+        <entry field="true" id="21" symbol="&lt;globals/KanjiView/&lt;&gt;dateview&gt;"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="9" object="true" symbol="KanjiView"/>
+        <entry field="true" id="33" symbol="AB_small"/>
+        <entry id="17" object="true" symbol="KanjiView"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry id="26" method="true" symbol="DigitToKanji"/>
+        <entry id="39" method="true" symbol="DigitToKanji"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="21" symbol="_label_battery"/>
+        <entry field="true" id="24" symbol="_label_battery"/>
+        <entry field="true" id="32" symbol="AB"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry field="true" id="29" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="16" object="true" symbol="WalkView"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="20" symbol="_timetext_day"/>
+        <entry field="true" id="26" symbol="_timetext_day"/>
         <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="13" object="true" symbol="TimeView"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry id="24" method="true" symbol="NumbersToKanjiChars"/>
-        <entry field="true" id="17" symbol="_timetext_mm"/>
+        <entry id="15" object="true" symbol="BatteryView"/>
+        <entry id="37" method="true" symbol="NumbersToKanjiChars"/>
         <entry id="8389347" symbol="color"/>
-        <entry field="true" id="18" symbol="_timetext_hh"/>
-        <entry field="true" id="22" symbol="_label_walk"/>
-        <entry id="11" module="true" symbol="Layouts"/>
-        <entry field="true" id="14" symbol="sample2_font"/>
-        <entry field="true" id="19" symbol="_timetext_month"/>
+        <entry field="true" id="41" symbol="_label_walk"/>
+        <entry id="27" module="true" symbol="Layouts"/>
+        <entry field="true" id="30" symbol="sample2_font"/>
+        <entry field="true" id="25" symbol="_timetext_month"/>
+        <entry field="true" id="23" symbol="&lt;globals/KanjiView/&lt;&gt;batteryview&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8390514" method="true" symbol="update"/>
+        <entry id="14" object="true" symbol="DateView"/>
         <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="22" symbol="&lt;globals/KanjiView/&lt;&gt;walkview&gt;"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268436456" name="dc" stackId="1" startPc="268435479"/>
-        <entry endPc="268436987" name="info" stackId="9" startPc="268436466"/>
-        <entry endPc="268436987" name="minutes" stackId="3" startPc="268436466"/>
-        <entry endPc="268436987" name="myStats" stackId="7" startPc="268436466"/>
-        <entry endPc="268436987" name="batteries" stackId="8" startPc="268436466"/>
-        <entry endPc="268436987" name="today" stackId="2" startPc="268436466"/>
-        <entry endPc="268436987" name="steps" stackId="10" startPc="268436466"/>
-        <entry endPc="268436987" name="hours" stackId="4" startPc="268436466"/>
-        <entry endPc="268436987" name="monthes" stackId="6" startPc="268436466"/>
-        <entry endPc="268436987" name="days" stackId="5" startPc="268436466"/>
-        <entry arg="true" endPc="268436988" name="dc" stackId="1" startPc="268436462"/>
-        <entry endPc="268437125" name="ch" stackId="6" startPc="268437093"/>
-        <entry endPc="268437138" name="i" stackId="5" startPc="268437093"/>
-        <entry endPc="268437233" name="i" stackId="7" startPc="268437201"/>
-        <entry endPc="268437279" name="chars" stackId="3" startPc="268436993"/>
-        <entry endPc="268437279" name="space" stackId="4" startPc="268436993"/>
-        <entry arg="true" endPc="268437280" name="texts" stackId="2" startPc="268436989"/>
-        <entry arg="true" endPc="268437280" name="strs" stackId="1" startPc="268436989"/>
-        <entry endPc="268437368" name="p" stackId="3" startPc="268437304"/>
-        <entry endPc="268437401" name="strings" stackId="2" startPc="268437285"/>
-        <entry arg="true" endPc="268437402" name="num" stackId="1" startPc="268437281"/>
-        <entry endPc="268437556" name="strings" stackId="2" startPc="268437407"/>
-        <entry endPc="268437556" name="lower_digit" stackId="4" startPc="268437407"/>
-        <entry endPc="268437556" name="upper_digit" stackId="3" startPc="268437407"/>
-        <entry arg="true" endPc="268437557" name="num" stackId="1" startPc="268437403"/>
-        <entry endPc="268437882" name="character" stackId="2" startPc="268437562"/>
-        <entry arg="true" endPc="268437883" name="num" stackId="1" startPc="268437558"/>
-        <entry arg="true" endPc="268438084" name="dc" stackId="1" startPc="268438012"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_LeftLabel_MD7" stackId="19" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Walk7" stackId="30" startPc="268438097"/>
-        <entry endPc="268441722" name="local_Rez_Fonts_large_font" stackId="3" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_LeftLabel_MD6" stackId="18" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Walk6" stackId="29" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_LeftLabel_MD5" stackId="17" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Walk5" stackId="28" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_LeftLabel_MD4" stackId="16" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Walk4" stackId="27" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_LeftLabel_MD3" stackId="15" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Walk3" stackId="26" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_LeftLabel_MD2" stackId="14" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Walk2" stackId="25" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_LeftLabel_MD1" stackId="13" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Walk1" stackId="24" startPc="268438097"/>
-        <entry endPc="268441722" name="local_Rez_Fonts_sample2_font" stackId="2" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_custom_drawable_background" stackId="4" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_MainLabel_HHMM8" stackId="12" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_MainLabel_HHMM7" stackId="11" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_MainLabel_HHMM6" stackId="10" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_MainLabel_HHMM5" stackId="9" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_MainLabel_HHMM4" stackId="8" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_MainLabel_HHMM3" stackId="7" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_MainLabel_HHMM2" stackId="6" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_MainLabel_HHMM1" stackId="5" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Battery4" stackId="23" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Battery3" stackId="22" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Battery2" stackId="21" startPc="268438097"/>
-        <entry endPc="268441722" name="rez_cmp_local_text_Label_Battery1" stackId="20" startPc="268438097"/>
-        <entry arg="true" endPc="268441723" name="dc" stackId="1" startPc="268438085"/>
+        <entry endPc="268435551" name="p" stackId="3" startPc="268435487"/>
+        <entry endPc="268435584" name="strings" stackId="2" startPc="268435468"/>
+        <entry arg="true" endPc="268435585" name="num" stackId="1" startPc="268435456"/>
+        <entry endPc="268435747" name="strings" stackId="2" startPc="268435598"/>
+        <entry endPc="268435747" name="lower_digit" stackId="4" startPc="268435598"/>
+        <entry endPc="268435747" name="upper_digit" stackId="3" startPc="268435598"/>
+        <entry arg="true" endPc="268435748" name="num" stackId="1" startPc="268435586"/>
+        <entry endPc="268436081" name="character" stackId="2" startPc="268435761"/>
+        <entry arg="true" endPc="268436082" name="num" stackId="1" startPc="268435749"/>
+        <entry endPc="268436163" name="i" stackId="5" startPc="268436131"/>
+        <entry endPc="268436276" name="ch" stackId="7" startPc="268436244"/>
+        <entry endPc="268436289" name="i" stackId="6" startPc="268436244"/>
+        <entry endPc="268436384" name="i" stackId="8" startPc="268436352"/>
+        <entry endPc="268436430" name="chars" stackId="3" startPc="268436087"/>
+        <entry endPc="268436430" name="space" stackId="4" startPc="268436087"/>
+        <entry arg="true" endPc="268436431" name="texts" stackId="2" startPc="268436083"/>
+        <entry arg="true" endPc="268436431" name="strs" stackId="1" startPc="268436083"/>
+        <entry endPc="268436479" name="kanjiview" stackId="1" startPc="268436439"/>
+        <entry arg="true" endPc="268436728" name="view" stackId="1" startPc="268436484"/>
+        <entry endPc="268436908" name="hours" stackId="3" startPc="268436733"/>
+        <entry endPc="268436908" name="today" stackId="1" startPc="268436733"/>
+        <entry endPc="268436908" name="minutes" stackId="2" startPc="268436733"/>
+        <entry arg="true" endPc="268437124" name="view" stackId="1" startPc="268436910"/>
+        <entry endPc="268437304" name="today" stackId="1" startPc="268437129"/>
+        <entry endPc="268437304" name="monthes" stackId="3" startPc="268437129"/>
+        <entry endPc="268437304" name="days" stackId="2" startPc="268437129"/>
+        <entry arg="true" endPc="268437454" name="view" stackId="1" startPc="268437306"/>
+        <entry arg="true" endPc="268437716" name="view" stackId="1" startPc="268437460"/>
+        <entry arg="true" endPc="268437850" name="dc" stackId="1" startPc="268437745"/>
+        <entry arg="true" endPc="268437911" name="dc" stackId="1" startPc="268437851"/>
+        <entry arg="true" endPc="268438098" name="dc" stackId="1" startPc="268438026"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_LeftLabel_MD7" stackId="20" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Walk7" stackId="31" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_LeftLabel_MD6" stackId="19" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Walk6" stackId="30" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_LeftLabel_MD5" stackId="18" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Walk5" stackId="29" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_LeftLabel_MD4" stackId="17" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Walk4" stackId="28" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_LeftLabel_MD3" stackId="16" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Walk3" stackId="27" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_LeftLabel_MD2" stackId="15" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Walk2" stackId="26" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_LeftLabel_MD1" stackId="14" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Walk1" stackId="25" startPc="268438111"/>
+        <entry endPc="268441777" name="local_Rez_Fonts_AB_small" stackId="4" startPc="268438111"/>
+        <entry endPc="268441777" name="local_Rez_Fonts_sample2_font" stackId="3" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_custom_drawable_background" stackId="5" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_MainLabel_HHMM8" stackId="13" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_MainLabel_HHMM7" stackId="12" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_MainLabel_HHMM6" stackId="11" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_MainLabel_HHMM5" stackId="10" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_MainLabel_HHMM4" stackId="9" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_MainLabel_HHMM3" stackId="8" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_MainLabel_HHMM2" stackId="7" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_MainLabel_HHMM1" stackId="6" startPc="268438111"/>
+        <entry endPc="268441777" name="local_Rez_Fonts_AB" stackId="2" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Battery4" stackId="24" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Battery3" stackId="23" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Battery2" stackId="22" startPc="268438111"/>
+        <entry endPc="268441777" name="rez_cmp_local_text_Label_Battery1" stackId="21" startPc="268438111"/>
+        <entry arg="true" endPc="268441778" name="dc" stackId="1" startPc="268438099"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sample2_font"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="large_font"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="AB"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="AB_small"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
     </annotations>
     <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/KanjiApp" offset="158" parentId="globals" symbolId="KanjiApp" type="class"/>
-        <dataEntry label="globals/Rez" offset="213" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/Rez/Drawables" offset="292" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Drawables/background" offset="339" parentId="Drawables" symbolId="background" type="class"/>
-        <dataEntry label="globals/Rez/Menus" offset="394" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="425" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="472" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="511" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="542" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/KanjiView" offset="581" parentId="globals" symbolId="KanjiView" type="class"/>
+        <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/ViewController" offset="222" parentId="globals" symbolId="ViewController" type="class"/>
+        <dataEntry label="globals/KanjiView" offset="277" parentId="globals" symbolId="KanjiView" type="class"/>
+        <dataEntry label="globals/BatteryView" offset="388" parentId="globals" symbolId="BatteryView" type="class"/>
+        <dataEntry label="globals/DateView" offset="451" parentId="globals" symbolId="DateView" type="class"/>
+        <dataEntry label="globals/Rez" offset="522" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="601" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Drawables/background" offset="648" parentId="Drawables" symbolId="background" type="class"/>
+        <dataEntry label="globals/Rez/Menus" offset="703" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="734" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="797" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="836" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="867" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/KanjiApp" offset="906" parentId="globals" symbolId="KanjiApp" type="class"/>
+        <dataEntry label="globals/TimeView" offset="961" parentId="globals" symbolId="TimeView" type="class"/>
+        <dataEntry label="globals/Num2Kanji" offset="1032" parentId="globals" symbolId="Num2Kanji" type="module"/>
+        <dataEntry label="globals/ViewUtil" offset="1087" parentId="globals" symbolId="ViewUtil" type="class"/>
+        <dataEntry label="globals/WalkView" offset="1142" parentId="globals" symbolId="WalkView" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435478" name="initialize" parent="KanjiView" startPc="268435456">
+        <functionEntry accessMode="public" endPc="268435585" name="NumbersToKanjiChars" parent="Num2Kanji" startPc="268435456">
+            <param id="num"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436456" name="onLayout" parent="KanjiView" startPc="268435479">
-            <param id="dc"/>
+        <functionEntry accessMode="public" endPc="268435748" name="NumbersToKanjiNumbers" parent="Num2Kanji" startPc="268435586">
+            <param id="num"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436461" name="onShow" parent="KanjiView" startPc="268436457">
+        <functionEntry accessMode="public" endPc="268436082" name="DigitToKanji" parent="Num2Kanji" startPc="268435749">
+            <param id="num"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436988" name="onUpdate" parent="KanjiView" startPc="268436462">
-            <param id="dc"/>
+        <functionEntry accessMode="protected" endPc="268441995" name="&lt;init&gt;" parent="Num2Kanji" startPc="268441995">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437280" name="setCharstoText" parent="KanjiView" startPc="268436989">
+        <functionEntry accessMode="public" endPc="268436431" name="setCharstoText" parent="ViewUtil" startPc="268436083">
             <param id="strs"/>
             <param id="texts"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437402" name="NumbersToKanjiChars" parent="KanjiView" startPc="268437281">
-            <param id="num"/>
+        <functionEntry accessMode="protected" endPc="268441996" name="&lt;init&gt;" parent="ViewUtil" startPc="268441996">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437557" name="NumbersToKanjiNumbers" parent="KanjiView" startPc="268437403">
-            <param id="num"/>
+        <functionEntry accessMode="public" endPc="268436434" name="initialize" parent="ViewUtil" startPc="268436432">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437883" name="DigitToKanji" parent="KanjiView" startPc="268437558">
-            <param id="num"/>
+        <functionEntry accessMode="public" endPc="268436480" name="init" parent="ViewController" startPc="268436435">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437888" name="onHide" parent="KanjiView" startPc="268437884">
+        <functionEntry accessMode="protected" endPc="268441780" name="&lt;init&gt;" parent="ViewController" startPc="268441780">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441895" name="&lt;init&gt;" parent="KanjiView" startPc="268441793">
+        <functionEntry accessMode="public" endPc="268436483" name="initialize" parent="ViewController" startPc="268436481">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437911" name="initialize" parent="KanjiApp" startPc="268437889">
+        <functionEntry accessMode="public" endPc="268436728" name="initialize" parent="TimeView" startPc="268436484">
+            <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437953" name="getInitialView" parent="KanjiApp" startPc="268437912">
+        <functionEntry accessMode="public" endPc="268436909" name="update" parent="TimeView" startPc="268436729">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441743" name="&lt;init&gt;" parent="KanjiApp" startPc="268441725">
+        <functionEntry accessMode="protected" endPc="268441994" name="&lt;init&gt;" parent="TimeView" startPc="268441948">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437982" name="getApp" startPc="268437954">
+        <functionEntry accessMode="public" endPc="268437124" name="initialize" parent="DateView" startPc="268436910">
+            <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438011" name="initialize" parent="background" startPc="268437983">
+        <functionEntry accessMode="public" endPc="268437305" name="update" parent="DateView" startPc="268437125">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438084" name="draw" parent="background" startPc="268438012">
+        <functionEntry accessMode="protected" endPc="268441879" name="&lt;init&gt;" parent="DateView" startPc="268441833">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437454" name="initialize" parent="BatteryView" startPc="268437306">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437459" name="update" parent="BatteryView" startPc="268437455">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441832" name="&lt;init&gt;" parent="BatteryView" startPc="268441800">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437716" name="initialize" parent="WalkView" startPc="268437460">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437721" name="update" parent="WalkView" startPc="268437717">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268442029" name="&lt;init&gt;" parent="WalkView" startPc="268441997">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437744" name="initialize" parent="KanjiView" startPc="268437722">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437850" name="onLayout" parent="KanjiView" startPc="268437745">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441787" name="&lt;init&gt;" parent="background" startPc="268441769">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441768" name="&lt;init&gt;" parent="Drawables" startPc="268441768">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441789" name="&lt;init&gt;" parent="Fonts" startPc="268441789">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441791" name="&lt;init&gt;" parent="JsonData" startPc="268441791">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268441723" name="WatchFace" parent="Layouts" startPc="268438085">
+        <functionEntry accessMode="public" endPc="268437911" name="onUpdate" parent="KanjiView" startPc="268437851">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441790" name="&lt;init&gt;" parent="Layouts" startPc="268441790">
+        <functionEntry accessMode="public" endPc="268437916" name="onHide" parent="KanjiView" startPc="268437912">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441788" name="&lt;init&gt;" parent="Menus" startPc="268441788">
+        <functionEntry accessMode="public" endPc="268437921" name="onShow" parent="KanjiView" startPc="268437917">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441792" name="&lt;init&gt;" parent="Strings" startPc="268441792">
+        <functionEntry accessMode="protected" endPc="268441799" name="&lt;init&gt;" parent="KanjiView" startPc="268441781">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268441767" name="&lt;init&gt;" parent="Rez" startPc="268441744">
+        <functionEntry accessMode="public" endPc="268437944" name="initialize" parent="KanjiApp" startPc="268437922">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437967" name="getInitialView" parent="KanjiApp" startPc="268437945">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441947" name="&lt;init&gt;" parent="KanjiApp" startPc="268441929">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437996" name="getApp" startPc="268437968">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438025" name="initialize" parent="background" startPc="268437997">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438098" name="draw" parent="background" startPc="268438026">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441923" name="&lt;init&gt;" parent="background" startPc="268441905">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441904" name="&lt;init&gt;" parent="Drawables" startPc="268441904">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441925" name="&lt;init&gt;" parent="Fonts" startPc="268441925">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441927" name="&lt;init&gt;" parent="JsonData" startPc="268441927">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441778" name="WatchFace" parent="Layouts" startPc="268438099">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441926" name="&lt;init&gt;" parent="Layouts" startPc="268441926">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441924" name="&lt;init&gt;" parent="Menus" startPc="268441924">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441928" name="&lt;init&gt;" parent="Strings" startPc="268441928">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441903" name="&lt;init&gt;" parent="Rez" startPc="268441880">
             <documentation/>
         </functionEntry>
     </functions>

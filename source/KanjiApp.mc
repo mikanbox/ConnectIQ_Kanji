@@ -9,7 +9,8 @@ class KanjiApp extends Application.AppBase {
     }
 
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new KanjiView() ] as Array<Views or InputDelegates>;
+        // return [ new KanjiView() ] as Array<Views or InputDelegates>;
+        return ViewController.init();
     }
 
 }

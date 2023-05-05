@@ -1,22 +1,22 @@
 <layout id="WatchFace">
 <drawable id="background" />
-  <label id="MainLabel_HHMM1" x="center" y="10%" font="@Fonts.large_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="MainLabel_HHMM2" x="center" y="20%" font="@Fonts.large_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="MainLabel_HHMM3" x="center" y="30%" font="@Fonts.large_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="MainLabel_HHMM4" x="center" y="40%" font="@Fonts.large_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="MainLabel_HHMM5" x="center" y="50%" font="@Fonts.large_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="MainLabel_HHMM6" x="center" y="60%" font="@Fonts.large_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="MainLabel_HHMM7" x="center" y="70%" font="@Fonts.large_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="MainLabel_HHMM8" x="center" y="80%" font="@Fonts.large_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="MainLabel_HHMM1" x="center" y="10%" font="@Fonts.AB" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="MainLabel_HHMM2" x="center" y="20%" font="@Fonts.AB" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="MainLabel_HHMM3" x="center" y="30%" font="@Fonts.AB" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="MainLabel_HHMM4" x="center" y="40%" font="@Fonts.AB" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="MainLabel_HHMM5" x="center" y="50%" font="@Fonts.AB" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="MainLabel_HHMM6" x="center" y="60%" font="@Fonts.AB" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="MainLabel_HHMM7" x="center" y="70%" font="@Fonts.AB" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="MainLabel_HHMM8" x="center" y="80%" font="@Fonts.AB" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
 
 
-  <label id="LeftLabel_MD1" x="70%" y="20%" font="@Fonts.sample2_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="LeftLabel_MD2" x="70%" y="30%" font="@Fonts.sample2_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="LeftLabel_MD3" x="70%" y="40%" font="@Fonts.sample2_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="LeftLabel_MD4" x="70%" y="50%" font="@Fonts.sample2_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="LeftLabel_MD5" x="70%" y="60%" font="@Fonts.sample2_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="LeftLabel_MD6" x="70%" y="70%" font="@Fonts.sample2_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
-  <label id="LeftLabel_MD7" x="70%" y="80%" font="@Fonts.sample2_font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="LeftLabel_MD1" x="70%" y="20%" font="@Fonts.AB_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="LeftLabel_MD2" x="70%" y="30%" font="@Fonts.AB_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="LeftLabel_MD3" x="70%" y="40%" font="@Fonts.AB_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="LeftLabel_MD4" x="70%" y="50%" font="@Fonts.AB_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="LeftLabel_MD5" x="70%" y="60%" font="@Fonts.AB_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="LeftLabel_MD6" x="70%" y="70%" font="@Fonts.AB_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+  <label id="LeftLabel_MD7" x="70%" y="80%" font="@Fonts.AB_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
 
 
 
