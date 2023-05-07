@@ -25,26 +25,24 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiApp_mc_7_26_stop:
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiApp.mc"; @line = 11; ]
     function getInitialView() as Array<Views or InputDelegates> or Null {
 _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiApp_mc_11_65_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiApp.mc" 12 8 ]
-        %tmp.1 = newa Array<Views or InputDelegates> 1;
-        %tmp.5 = getv ? :KanjiView;
-        %tmp.2 = newc %tmp.5 ();
-        %tmp.6 = dup %tmp.1;
-        %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        ret %tmp.7;
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiApp.mc" 13 8 ]
+        %tmp.2 = getv ? :ViewController;
+        %tmp.3 = getv function %tmp.2 :init;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        ret %tmp.4;
 _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiApp_mc_11_65_stop:
     }
 }
-[ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiApp.mc"; @line = 17; ]
+[ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiApp.mc"; @line = 18; ]
 function getApp() as KanjiApp {
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiApp_mc_17_30_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiApp.mc" 18 4 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiApp_mc_18_30_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiApp.mc" 19 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 KanjiApp;
     ret %tmp.4;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiApp_mc_17_30_stop:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiApp_mc_18_30_stop:
 }
 [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiApp.mc"; @line = 1; ]
 <init> {
