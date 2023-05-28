@@ -2,7 +2,7 @@
     <fonts>
         <font id="sample2_font" filename="fonts/small.fnt" filter="零一二三四五六七八九十百千万億兆電歩時分秒日月年 " />
         <font id="large_font" filename="fonts/large.fnt" filter="零一二三四五六七八九十百千万億兆電歩時分秒日月年 " />
-        <font id="AB" filename="fonts/AB.fnt" filter="零一二三四五六七八九十時分日月 " />
-        <font id="AB_small" filename="fonts/AB_small.fnt" filter="零一二三四五六七八九十時分日月 " />
+        <font id="AB" filename="fonts/AB.fnt" filter="零一二三四五六七八九十時分日月電歩 " />
+        <font id="AB_small" filename="fonts/AB_small.fnt" filter="零一二三四五六七八九十時分日月電歩 " />
     </fonts>
 </resources>

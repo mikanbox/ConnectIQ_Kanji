@@ -63,37 +63,38 @@ class DateView extends ViewUtil {
 }
 
 class BatteryView extends ViewUtil  {
-        public var _label_battery as Array<Text> = new[4] as Array<Text>;
+    public var _label_battery as Array<Text> = new[4] as Array<Text>;
     function initialize(view) {
-        _label_battery[0] = View.findDrawableById("Label_Battery1") as Text;
-        _label_battery[1] = View.findDrawableById("Label_Battery2") as Text;
-        _label_battery[2] = View.findDrawableById("Label_Battery3") as Text;
-        _label_battery[3] = View.findDrawableById("Label_Battery4") as Text;
+        _label_battery[0] = view.findDrawableById("Label_Battery1") as Text;
+        _label_battery[1] = view.findDrawableById("Label_Battery2") as Text;
+        _label_battery[2] = view.findDrawableById("Label_Battery3") as Text;
+        _label_battery[3] = view.findDrawableById("Label_Battery4") as Text;
     }
     function update() {
-        // var myStats = System.getSystemStats();
-        // var batteries = "電" + NumbersToKanjiNumbers(myStats.battery.toNumber());
-        // setCharstoText(batteries, _label_battery);
-        // System.println("Debug: battery - " + batteries);
+        var myStats = System.getSystemStats();
+        var batteries = "電" + Num2Kanji.NumbersToKanjiNumbers(myStats.battery.toNumber());
+        System.println("Debug: battery - " + batteries);
+        setCharstoText(batteries, _label_battery);
     }
 }
 
 class WalkView extends ViewUtil  {
     public var _label_walk as Array<Text> = new[7] as Array<Text>;
     function initialize(view) {
-        _label_walk[0] = View.findDrawableById("Label_Walk1") as Text;
-        _label_walk[1] = View.findDrawableById("Label_Walk2") as Text;
-        _label_walk[2] = View.findDrawableById("Label_Walk3") as Text;
-        _label_walk[3] = View.findDrawableById("Label_Walk4") as Text;
-        _label_walk[4] = View.findDrawableById("Label_Walk5") as Text;
-        _label_walk[5] = View.findDrawableById("Label_Walk6") as Text;
-        _label_walk[6] = View.findDrawableById("Label_Walk7") as Text;
+        _label_walk[0] = view.findDrawableById("Label_Walk1") as Text;
+        _label_walk[1] = view.findDrawableById("Label_Walk2") as Text;
+        _label_walk[2] = view.findDrawableById("Label_Walk3") as Text;
+        _label_walk[3] = view.findDrawableById("Label_Walk4") as Text;
+        _label_walk[4] = view.findDrawableById("Label_Walk5") as Text;
+        _label_walk[5] = view.findDrawableById("Label_Walk6") as Text;
+        _label_walk[6] = view.findDrawableById("Label_Walk7") as Text;
     }
     function update() {
-        // var info = ActivityMonitor.getInfo();
-        // var steps = "歩" + NumbersToKanjiChars(info.steps.toNumber());
-        // setCharstoText(steps, _label_walk);
-        // System.println("Debug: steps   - " + steps);
+        var info = ActivityMonitor.getInfo();
+
+        var steps = "歩" + Num2Kanji.NumbersToKanjiNumbers(info.steps.toNumber());
+        System.println("Debug: steps   - " + steps);
+        setCharstoText(steps, _label_walk);
     }
 }
 
@@ -105,6 +106,7 @@ class KanjiView extends WatchUi.WatchFace {
     private var batteryview;
 
     function initialize() {
+
         WatchFace.initialize();
     }
 
@@ -112,11 +114,16 @@ class KanjiView extends WatchUi.WatchFace {
         setLayout(Rez.Layouts.WatchFace(dc));
         timeview = new TimeView(me as View);
         dateview = new DateView(me as View);
+        walkview = new WalkView(me as View);
+        batteryview = new BatteryView(me as View);
     }
 
     function onUpdate(dc as Dc) as Void {
         timeview.update();
         dateview.update();
+        walkview.update();
+        batteryview.update();
+    
 
         View.onUpdate(dc);
     }
