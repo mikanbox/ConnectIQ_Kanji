@@ -4,7 +4,7 @@ page id=0 file="AB_small.png"
 chars count=15
 char id=38646 x=0 y=0 width=15 height=15 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
 char id=19968 x=15 y=0 width=15 height=15 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
-char id=21313 x=15 y=0 width=15 height=15 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
+char id=21313 x=30 y=0 width=15 height=15 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
 char id=20108 x=45 y=0 width=15 height=15 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
 char id=19977 x=60 y=0 width=15 height=15 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
 char id=22235 x=0 y=15 width=15 height=15 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
