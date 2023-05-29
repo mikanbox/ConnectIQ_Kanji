@@ -351,7 +351,7 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_55_22_stop:
 class BatteryView extends ViewUtil{
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 65; ]
     <init> {
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 66 19 ]
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 66 15 ]
         %tmp.44 = 4;
         %tmp.43 = newa %tmp.44;
         %tmp.45 = as %tmp.43 Array<Text>;
@@ -361,7 +361,7 @@ class BatteryView extends ViewUtil{
     static
     <init> {
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 66; @position = 19; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 66; @position = 15; ]
     public
     var _label_battery as Array<Text>;
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 67; ]
@@ -369,44 +369,79 @@ class BatteryView extends ViewUtil{
 _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_67_30_start:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 68 8 ]
         %tmp.1 = getv self :_label_battery;
-        %tmp.3 = getv ? :View;
-        %tmp.4 = getv function %tmp.3 :findDrawableById;
-        %tmp.5 = "Label_Battery1";
-        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
-        %tmp.7 = as %tmp.6 Text;
-        %tmp.8 = 0;
-        aputv %tmp.1 %tmp.8 %tmp.7;
+        %tmp.2 = lgetv %view;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "Label_Battery1";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Text;
+        %tmp.7 = 0;
+        aputv %tmp.1 %tmp.7 %tmp.6;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 69 8 ]
-        %tmp.9 = getv self :_label_battery;
-        %tmp.11 = getv ? :View;
-        %tmp.12 = getv function %tmp.11 :findDrawableById;
-        %tmp.13 = "Label_Battery2";
-        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
-        %tmp.15 = as %tmp.14 Text;
-        %tmp.16 = 1;
-        aputv %tmp.9 %tmp.16 %tmp.15;
+        %tmp.8 = getv self :_label_battery;
+        %tmp.9 = lgetv %view;
+        %tmp.10 = getv function %tmp.9 :findDrawableById;
+        %tmp.11 = "Label_Battery2";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.13 = as %tmp.12 Text;
+        %tmp.14 = 1;
+        aputv %tmp.8 %tmp.14 %tmp.13;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 70 8 ]
-        %tmp.17 = getv self :_label_battery;
-        %tmp.19 = getv ? :View;
-        %tmp.20 = getv function %tmp.19 :findDrawableById;
-        %tmp.21 = "Label_Battery3";
-        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
-        %tmp.23 = as %tmp.22 Text;
-        %tmp.24 = 2;
-        aputv %tmp.17 %tmp.24 %tmp.23;
+        %tmp.15 = getv self :_label_battery;
+        %tmp.16 = lgetv %view;
+        %tmp.17 = getv function %tmp.16 :findDrawableById;
+        %tmp.18 = "Label_Battery3";
+        %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
+        %tmp.20 = as %tmp.19 Text;
+        %tmp.21 = 2;
+        aputv %tmp.15 %tmp.21 %tmp.20;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 71 8 ]
-        %tmp.25 = getv self :_label_battery;
-        %tmp.27 = getv ? :View;
-        %tmp.28 = getv function %tmp.27 :findDrawableById;
-        %tmp.29 = "Label_Battery4";
-        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
-        %tmp.31 = as %tmp.30 Text;
-        %tmp.32 = 3;
-        aputv %tmp.25 %tmp.32 %tmp.31;
+        %tmp.22 = getv self :_label_battery;
+        %tmp.23 = lgetv %view;
+        %tmp.24 = getv function %tmp.23 :findDrawableById;
+        %tmp.25 = "Label_Battery4";
+        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
+        %tmp.27 = as %tmp.26 Text;
+        %tmp.28 = 3;
+        aputv %tmp.22 %tmp.28 %tmp.27;
 _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_67_30_stop:
     }
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 73; ]
     function update() {
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_73_22_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 74 8 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_73_22_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_73_22_stop" ]
+        %myStats.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getSystemStats;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %myStats.1 %tmp.3;
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 75 8 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_73_22_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_73_22_stop" ]
+        %batteries.2 = local;
+        %tmp.4 = "電";
+        %tmp.6 = getv ? :Num2Kanji;
+        %tmp.7 = getv function %tmp.6 :NumbersToKanjiNumbers;
+        %tmp.8 = lgetv %myStats.1;
+        %tmp.9 = getv %tmp.8 :battery;
+        %tmp.10 = getv function %tmp.9 :toNumber;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
+        %tmp.13 = add %tmp.4 %tmp.12;
+        lputv %batteries.2 %tmp.13;
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 76 8 ]
+        %tmp.14 = getm $.Toybox.System;
+        %tmp.15 = getv function %tmp.14 :println;
+        %tmp.16 = "Debug: battery - ";
+        %tmp.18 = lgetv %batteries.2;
+        %tmp.19 = add %tmp.16 %tmp.18;
+        invoke %tmp.14 %tmp.15(%tmp.19);
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 77 8 ]
+        %tmp.20 = self;
+        %tmp.21 = getv function %tmp.20 :setCharstoText;
+        %tmp.23 = lgetv %batteries.2;
+        %tmp.25 = getv ? :_label_battery;
+        invoke %tmp.20 %tmp.21(%tmp.23, %tmp.25);
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_73_22_stop:
     }
 }
 [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 81; ]
@@ -414,10 +449,10 @@ class WalkView extends ViewUtil{
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 81; ]
     <init> {
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 82 15 ]
-        %tmp.2 = 7;
-        %tmp.1 = newa %tmp.2;
-        %tmp.3 = as %tmp.1 Array<Text>;
-        putv self :_label_walk %tmp.3;
+        %tmp.27 = 7;
+        %tmp.26 = newa %tmp.27;
+        %tmp.28 = as %tmp.26 Array<Text>;
+        putv self :_label_walk %tmp.28;
     }
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 81; ]
     static
@@ -431,107 +466,142 @@ class WalkView extends ViewUtil{
 _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_83_30_start:
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 84 8 ]
         %tmp.1 = getv self :_label_walk;
-        %tmp.3 = getv ? :View;
-        %tmp.4 = getv function %tmp.3 :findDrawableById;
-        %tmp.5 = "Label_Walk1";
-        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
-        %tmp.7 = as %tmp.6 Text;
-        %tmp.8 = 0;
-        aputv %tmp.1 %tmp.8 %tmp.7;
+        %tmp.2 = lgetv %view;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "Label_Walk1";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Text;
+        %tmp.7 = 0;
+        aputv %tmp.1 %tmp.7 %tmp.6;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 85 8 ]
-        %tmp.9 = getv self :_label_walk;
-        %tmp.11 = getv ? :View;
-        %tmp.12 = getv function %tmp.11 :findDrawableById;
-        %tmp.13 = "Label_Walk2";
-        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
-        %tmp.15 = as %tmp.14 Text;
-        %tmp.16 = 1;
-        aputv %tmp.9 %tmp.16 %tmp.15;
+        %tmp.8 = getv self :_label_walk;
+        %tmp.9 = lgetv %view;
+        %tmp.10 = getv function %tmp.9 :findDrawableById;
+        %tmp.11 = "Label_Walk2";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.13 = as %tmp.12 Text;
+        %tmp.14 = 1;
+        aputv %tmp.8 %tmp.14 %tmp.13;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 86 8 ]
-        %tmp.17 = getv self :_label_walk;
-        %tmp.19 = getv ? :View;
-        %tmp.20 = getv function %tmp.19 :findDrawableById;
-        %tmp.21 = "Label_Walk3";
-        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
-        %tmp.23 = as %tmp.22 Text;
-        %tmp.24 = 2;
-        aputv %tmp.17 %tmp.24 %tmp.23;
+        %tmp.15 = getv self :_label_walk;
+        %tmp.16 = lgetv %view;
+        %tmp.17 = getv function %tmp.16 :findDrawableById;
+        %tmp.18 = "Label_Walk3";
+        %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
+        %tmp.20 = as %tmp.19 Text;
+        %tmp.21 = 2;
+        aputv %tmp.15 %tmp.21 %tmp.20;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 87 8 ]
-        %tmp.25 = getv self :_label_walk;
-        %tmp.27 = getv ? :View;
-        %tmp.28 = getv function %tmp.27 :findDrawableById;
-        %tmp.29 = "Label_Walk4";
-        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
-        %tmp.31 = as %tmp.30 Text;
-        %tmp.32 = 3;
-        aputv %tmp.25 %tmp.32 %tmp.31;
+        %tmp.22 = getv self :_label_walk;
+        %tmp.23 = lgetv %view;
+        %tmp.24 = getv function %tmp.23 :findDrawableById;
+        %tmp.25 = "Label_Walk4";
+        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
+        %tmp.27 = as %tmp.26 Text;
+        %tmp.28 = 3;
+        aputv %tmp.22 %tmp.28 %tmp.27;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 88 8 ]
-        %tmp.33 = getv self :_label_walk;
-        %tmp.35 = getv ? :View;
-        %tmp.36 = getv function %tmp.35 :findDrawableById;
-        %tmp.37 = "Label_Walk5";
-        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
-        %tmp.39 = as %tmp.38 Text;
-        %tmp.40 = 4;
-        aputv %tmp.33 %tmp.40 %tmp.39;
+        %tmp.29 = getv self :_label_walk;
+        %tmp.30 = lgetv %view;
+        %tmp.31 = getv function %tmp.30 :findDrawableById;
+        %tmp.32 = "Label_Walk5";
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        %tmp.34 = as %tmp.33 Text;
+        %tmp.35 = 4;
+        aputv %tmp.29 %tmp.35 %tmp.34;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 89 8 ]
-        %tmp.41 = getv self :_label_walk;
-        %tmp.43 = getv ? :View;
-        %tmp.44 = getv function %tmp.43 :findDrawableById;
-        %tmp.45 = "Label_Walk6";
-        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
-        %tmp.47 = as %tmp.46 Text;
-        %tmp.48 = 5;
-        aputv %tmp.41 %tmp.48 %tmp.47;
+        %tmp.36 = getv self :_label_walk;
+        %tmp.37 = lgetv %view;
+        %tmp.38 = getv function %tmp.37 :findDrawableById;
+        %tmp.39 = "Label_Walk6";
+        %tmp.40 = invoke %tmp.37 %tmp.38(%tmp.39);
+        %tmp.41 = as %tmp.40 Text;
+        %tmp.42 = 5;
+        aputv %tmp.36 %tmp.42 %tmp.41;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 90 8 ]
-        %tmp.49 = getv self :_label_walk;
-        %tmp.51 = getv ? :View;
-        %tmp.52 = getv function %tmp.51 :findDrawableById;
-        %tmp.53 = "Label_Walk7";
-        %tmp.54 = invoke %tmp.51 %tmp.52(%tmp.53);
-        %tmp.55 = as %tmp.54 Text;
-        %tmp.56 = 6;
-        aputv %tmp.49 %tmp.56 %tmp.55;
+        %tmp.43 = getv self :_label_walk;
+        %tmp.44 = lgetv %view;
+        %tmp.45 = getv function %tmp.44 :findDrawableById;
+        %tmp.46 = "Label_Walk7";
+        %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
+        %tmp.48 = as %tmp.47 Text;
+        %tmp.49 = 6;
+        aputv %tmp.43 %tmp.49 %tmp.48;
 _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_83_30_stop:
     }
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 92; ]
     function update() {
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_92_22_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 93 8 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_92_22_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_92_22_stop" ]
+        %info.1 = local;
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %info.1 %tmp.3;
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 95 8 ]
+        [ "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_92_22_start" "_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_92_22_stop" ]
+        %steps.2 = local;
+        %tmp.4 = "歩";
+        %tmp.6 = getv ? :Num2Kanji;
+        %tmp.7 = getv function %tmp.6 :NumbersToKanjiNumbers;
+        %tmp.8 = lgetv %info.1;
+        %tmp.9 = getv %tmp.8 :steps;
+        %tmp.10 = getv function %tmp.9 :toNumber;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
+        %tmp.13 = add %tmp.4 %tmp.12;
+        lputv %steps.2 %tmp.13;
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 96 8 ]
+        %tmp.14 = getm $.Toybox.System;
+        %tmp.15 = getv function %tmp.14 :println;
+        %tmp.16 = "Debug: steps   - ";
+        %tmp.18 = lgetv %steps.2;
+        %tmp.19 = add %tmp.16 %tmp.18;
+        invoke %tmp.14 %tmp.15(%tmp.19);
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 97 8 ]
+        %tmp.20 = self;
+        %tmp.21 = getv function %tmp.20 :setCharstoText;
+        %tmp.23 = lgetv %steps.2;
+        %tmp.25 = getv ? :_label_walk;
+        invoke %tmp.20 %tmp.21(%tmp.23, %tmp.25);
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_92_22_stop:
     }
 }
-[ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 100; ]
+[ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 101; ]
 class KanjiView extends WatchUi.WatchFace{
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 100; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 101; ]
     <init> {
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 100; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 101; ]
     static
     <init> {
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 102; @position = 16; ]
-    private
-    var timeview;
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 103; @position = 16; ]
     private
-    var dateview;
+    var timeview;
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 104; @position = 16; ]
     private
-    var walkview;
+    var dateview;
     [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 105; @position = 16; ]
     private
+    var walkview;
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 106; @position = 16; ]
+    private
     var batteryview;
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 107; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 108; ]
     function initialize() as Void {
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_107_26_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 108 8 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_26_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 110 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_107_26_stop:
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_108_26_stop:
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 111; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 113; ]
     function onLayout(dc as Dc) as Void {
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_111_40_start:
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 112 8 ]
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_113_40_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 114 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -540,42 +610,62 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_111_40_start:
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 113 8 ]
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 115 8 ]
         %tmp.13 = getv ? :TimeView;
         %tmp.15 = lgetv %self;
         %tmp.16 = as %tmp.15 View;
         %tmp.10 = newc %tmp.13 (%tmp.16);
         putv self :timeview %tmp.10;
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 114 8 ]
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 116 8 ]
         %tmp.20 = getv ? :DateView;
         %tmp.22 = lgetv %self;
         %tmp.23 = as %tmp.22 View;
         %tmp.17 = newc %tmp.20 (%tmp.23);
         putv self :dateview %tmp.17;
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_111_40_stop:
-    }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 117; ]
-    function onUpdate(dc as Dc) as Void {
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_40_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 117 8 ]
+        %tmp.27 = getv ? :WalkView;
+        %tmp.29 = lgetv %self;
+        %tmp.30 = as %tmp.29 View;
+        %tmp.24 = newc %tmp.27 (%tmp.30);
+        putv self :walkview %tmp.24;
 [ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 118 8 ]
+        %tmp.34 = getv ? :BatteryView;
+        %tmp.36 = lgetv %self;
+        %tmp.37 = as %tmp.36 View;
+        %tmp.31 = newc %tmp.34 (%tmp.37);
+        putv self :batteryview %tmp.31;
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_113_40_stop:
+    }
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 121; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_121_40_start:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 122 8 ]
         %tmp.2 = getv ? :timeview;
         %tmp.3 = getv function %tmp.2 :update;
         invoke %tmp.2 %tmp.3();
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 119 8 ]
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 123 8 ]
         %tmp.5 = getv ? :dateview;
         %tmp.6 = getv function %tmp.5 :update;
         invoke %tmp.5 %tmp.6();
-[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 121 8 ]
-        %tmp.8 = getv ? :View;
-        %tmp.9 = getv function %tmp.8 :onUpdate;
-        %tmp.11 = lgetv %dc;
-        invoke %tmp.8 %tmp.9(%tmp.11);
-_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_117_40_stop:
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 124 8 ]
+        %tmp.8 = getv ? :walkview;
+        %tmp.9 = getv function %tmp.8 :update;
+        invoke %tmp.8 %tmp.9();
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 125 8 ]
+        %tmp.11 = getv ? :batteryview;
+        %tmp.12 = getv function %tmp.11 :update;
+        invoke %tmp.11 %tmp.12();
+[ "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc" 128 8 ]
+        %tmp.14 = getv ? :View;
+        %tmp.15 = getv function %tmp.14 :onUpdate;
+        %tmp.17 = lgetv %dc;
+        invoke %tmp.14 %tmp.15(%tmp.17);
+_Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_121_40_stop:
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 124; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 131; ]
     function onHide() as Void {
     }
-    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 126; ]
+    [ @file = "/Users/shuaki/Dev/connectIQ/Kanji/source/KanjiView.mc"; @line = 133; ]
     function onShow() as Void {
     }
 }
