@@ -420,7 +420,7 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_73_22_start:
         %batteries.2 = local;
         %tmp.4 = "電";
         %tmp.6 = getv ? :Num2Kanji;
-        %tmp.7 = getv function %tmp.6 :NumbersToKanjiNumbers;
+        %tmp.7 = getv function %tmp.6 :NumbersToKanjiChars;
         %tmp.8 = lgetv %myStats.1;
         %tmp.9 = getv %tmp.8 :battery;
         %tmp.10 = getv function %tmp.9 :toNumber;
@@ -544,7 +544,7 @@ _Users_shuaki_Dev_connectIQ_Kanji_source_KanjiView_mc_92_22_start:
         %steps.2 = local;
         %tmp.4 = "歩";
         %tmp.6 = getv ? :Num2Kanji;
-        %tmp.7 = getv function %tmp.6 :NumbersToKanjiNumbers;
+        %tmp.7 = getv function %tmp.6 :NumbersToKanjiChars;
         %tmp.8 = lgetv %info.1;
         %tmp.9 = getv %tmp.8 :steps;
         %tmp.10 = getv function %tmp.9 :toNumber;

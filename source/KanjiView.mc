@@ -72,7 +72,7 @@ class BatteryView extends ViewUtil  {
     }
     function update() {
         var myStats = System.getSystemStats();
-        var batteries = "電" + Num2Kanji.NumbersToKanjiNumbers(myStats.battery.toNumber());
+        var batteries = "電" + Num2Kanji.NumbersToKanjiChars(myStats.battery.toNumber());
         System.println("Debug: battery - " + batteries);
         setCharstoText(batteries, _label_battery);
     }
@@ -92,7 +92,7 @@ class WalkView extends ViewUtil  {
     function update() {
         var info = ActivityMonitor.getInfo();
 
-        var steps = "歩" + Num2Kanji.NumbersToKanjiNumbers(info.steps.toNumber());
+        var steps = "歩" + Num2Kanji.NumbersToKanjiChars(info.steps.toNumber());
         System.println("Debug: steps   - " + steps);
         setCharstoText(steps, _label_walk);
     }

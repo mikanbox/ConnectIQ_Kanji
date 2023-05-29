@@ -10,12 +10,11 @@ module Num2Kanji {
         var strings = "" as String;
 
         while(!(num < 10)) {
-            var p = num;
-            while (p >= 10){p /= 10;}
-            strings += DigitToKanji(p).toString();
+            var p = num%10;
+            strings = DigitToKanji(p).toString() + strings;
             num /= 10;
         }
-        strings += DigitToKanji(num).toString();
+        strings = DigitToKanji(num).toString() + strings;
         return strings as String;
     }
 
